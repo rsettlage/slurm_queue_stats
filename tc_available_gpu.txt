@@ -299,9 +299,9 @@ tc301 CPUAlloc= 128 CPUTot= 128
 tc302 CPUAlloc= 128 CPUTot= 128 
 tc303 CPUAlloc= 128 CPUTot= 128 
 tc304 CPUAlloc= 128 CPUTot= 128 
-tc305 CPUAlloc= 0 CPUTot= 128 
-tc306 CPUAlloc= 0 CPUTot= 128 
-tc307 CPUAlloc= 0 CPUTot= 128 
+tc305 CPUAlloc= 128 CPUTot= 128 
+tc306 CPUAlloc= 128 CPUTot= 128 
+tc307 CPUAlloc= 128 CPUTot= 128 
 tc308 CPUAlloc= 0 CPUTot= 128 
 tc-hm001 CPUAlloc= 0 CPUTot= 128 
 tc-hm002 CPUAlloc= 127 CPUTot= 128 
