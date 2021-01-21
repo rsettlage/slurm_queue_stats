@@ -1,0 +1,1 @@
+sacct --start="10/01/19" --end="06/30/20" -X -a --state=cd,f,to -P -o JobID,Account,User,Submit,Start,End,Eligible,AllocNodes,AllocCPUS,ReqNodes,ReqCPUS,Timelimit,NCPUS,CPUTime,State,Cluster,Partition,Elapsed,ReqGRES >cascades_Q42_jobs.txt

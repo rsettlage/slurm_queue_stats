@@ -1,0 +1,7 @@
+normal_q
+dev_q
+largemem_q
+v100_normal_q
+v100_dev_q
+k80_q
+preemptable_q

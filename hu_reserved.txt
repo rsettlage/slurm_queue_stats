@@ -1,0 +1,2 @@
+RESV_NAME            STATE           START_TIME             END_TIME     DURATION  NODELIST
+reprovisionhu003    ACTIVE  2020-09-15T15:11:48  2021-09-15T15:11:48  365-00:00:00  hu003

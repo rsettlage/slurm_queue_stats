@@ -1,0 +1,322 @@
+
+suppressMessages(library(kableExtra))
+suppressMessages(library(data.table))
+suppressMessages(library(dplyr))
+suppressMessages(library(tidyr))
+
+## should convert to this:
+## { for NN in $(sinfo -N -r -h -o "%N" | uniq); do sinfo -n $NN -h -o "%N %C" | cut -f 1,2 -d "/"; done; }
+## gives used/free for all nodes
+## then build out table
+
+## queues we are interested in
+general_queues <- fread("./queues_to_report.txt",header=FALSE)
+## queue vs node list
+ca_queues <- fread("sed 's_/_ _' ./ca_queues.txt",sep=" ",select=c(1,6),data.table=FALSE)
+dt_queues <- fread("sed 's_/_ _' ./dt_queues.txt",sep=" ",select=c(1,6),data.table=FALSE)
+hu_queues <- fread("sed 's_/_ _' ./hu_queues.txt",sep=" ",select=c(1,6),data.table=FALSE)
+## core status
+ca_available <- fread("sed 's_/_ _' ./ca_available.txt",header=FALSE,sep=" ",data.table=FALSE,col.names=c("node","used","free"))
+dt_available <- fread("sed 's_/_ _' ./dt_available.txt",header=FALSE,sep=" ",data.table=FALSE,col.names=c("node","used","free"))
+hu_available <- fread("sed 's_/_ _' ./hu_available.txt",header=FALSE,sep=" ",data.table=FALSE,col.names=c("node","used","free"))
+## reservations
+ca_reservation <- fread("./ca_reserved.txt",data.table=FALSE)
+dt_reservation <- fread("./dt_reserved.txt",data.table=FALSE)
+hu_reservation <- fread("./hu_reserved.txt",data.table=FALSE)
+
+## add total cores column
+ca_available$total <- rowSums(ca_available[,2:3])
+dt_available$total <- rowSums(dt_available[,2:3])
+hu_available$total <- rowSums(hu_available[,2:3])
+
+## remove reserved nodes from ranges, only care about "ACTIVE"
+ca_reservation <- ca_reservation[ca_reservation$STATE != "INACTIVE",c(1,ncol(ca_reservation))]
+dt_reservation <- dt_reservation[dt_reservation$STATE != "INACTIVE",c(1,ncol(dt_reservation))]
+hu_reservation <- hu_reservation[hu_reservation$STATE != "INACTIVE",c(1,ncol(hu_reservation))]
+## get rid of *
+ca_queues$PARTITION <- gsub("*","",ca_queues$PARTITION,fixed=TRUE)
+dt_queues$PARTITION <- gsub("*","",dt_queues$PARTITION,fixed=TRUE)
+hu_queues$PARTITION <- gsub("*","",hu_queues$PARTITION,fixed=TRUE)
+## limit to queues we care about
+ca_queues <- ca_queues[ca_queues$PARTITION %in% general_queues$V1,]
+dt_queues <- dt_queues[dt_queues$PARTITION %in% general_queues$V1,]
+hu_queues <- hu_queues[hu_queues$PARTITION %in% general_queues$V1,]
+## get rid of special characters
+ca_queues$NODELIST <- gsub("ca","",ca_queues$NODELIST,fixed=TRUE)
+ca_queues$NODELIST <- gsub("[","",ca_queues$NODELIST,fixed=TRUE)
+ca_queues$NODELIST <- gsub("]","",ca_queues$NODELIST,fixed=TRUE)
+dt_queues$NODELIST <- gsub("dt","",dt_queues$NODELIST,fixed=TRUE)
+dt_queues$NODELIST <- gsub("[","",dt_queues$NODELIST,fixed=TRUE)
+dt_queues$NODELIST <- gsub("]","",dt_queues$NODELIST,fixed=TRUE)
+hu_queues$NODELIST <- gsub("hu","",hu_queues$NODELIST,fixed=TRUE)
+hu_queues$NODELIST <- gsub("[","",hu_queues$NODELIST,fixed=TRUE)
+hu_queues$NODELIST <- gsub("]","",hu_queues$NODELIST,fixed=TRUE)
+
+if(nrow(ca_reservation)>0){
+    ca_reservation$NODELIST <- gsub("ca","",ca_reservation$NODELIST,fixed=TRUE)
+    ca_reservation$NODELIST <- gsub("[","",ca_reservation$NODELIST,fixed=TRUE)
+    ca_reservation$NODELIST <- gsub("]","",ca_reservation$NODELIST,fixed=TRUE)
+}
+if(nrow(dt_reservation)>0){
+    dt_reservation$NODELIST <- gsub("dt","",dt_reservation$NODELIST,fixed=TRUE)
+    dt_reservation$NODELIST <- gsub("[","",dt_reservation$NODELIST,fixed=TRUE)
+    dt_reservation$NODELIST <- gsub("]","",dt_reservation$NODELIST,fixed=TRUE)
+}
+if(nrow(hu_reservation)>0){
+    hu_reservation$NODELIST <- gsub("hu","",hu_reservation$NODELIST,fixed=TRUE)
+    hu_reservation$NODELIST <- gsub("[","",hu_reservation$NODELIST,fixed=TRUE)
+    hu_reservation$NODELIST <- gsub("]","",hu_reservation$NODELIST,fixed=TRUE)
+}
+
+## convert node range to number range for easier handling
+for(j in 1:nrow(ca_queues)){
+    for(i in 2:ncol(ca_queues)){
+        if(!is.na(ca_queues[j,i])){
+            if(grepl("-",ca_queues[j,i])){
+                temp <- separate(ca_queues[j,c(1,i)],2,sep="-",c("start","end"),fill="right")
+                ca_queues[j,i] <- paste(sprintf("ca%03d",temp$start:temp$end),collapse=",")
+            }
+        }
+    }
+    temp <- gsub(",NA","",paste(ca_queues[j,-1],collapse=","))
+    ca_queues[j,2] <- temp
+}
+ca_queues <- ca_queues[,1:2]
+
+for(j in 1:nrow(dt_queues)){
+    for(i in 2:ncol(dt_queues)){
+        if(!is.na(dt_queues[j,i])){
+            if(grepl("-",dt_queues[j,i])){
+                temp <- separate(dt_queues[j,c(1,i)],2,sep="-",c("start","end"),fill="right")
+                dt_queues[j,i] <- paste(sprintf("dt%03d",temp$start:temp$end),collapse=",")
+            }
+        }
+    }
+    temp <- gsub(",NA","",paste(dt_queues[j,-1],collapse=","))
+    dt_queues[j,2] <- temp
+}
+dt_queues <- dt_queues[,1:2]
+
+for(j in 1:nrow(hu_queues)){
+    for(i in 2:ncol(hu_queues)){
+        if(!is.na(hu_queues[j,i])){
+            if(grepl("-",hu_queues[j,i])){
+                temp <- separate(hu_queues[j,c(1,i)],2,sep="-",c("start","end"),fill="right")
+                hu_queues[j,i] <- paste(sprintf("hu%03d",temp$start:temp$end),collapse=",")
+            }
+        }
+    }
+    temp <- gsub(",NA","",paste(hu_queues[j,-1],collapse=","))
+    hu_queues[j,2] <- temp
+}
+hu_queues <- hu_queues[,1:2]
+
+## ditto for reservations, convert node range to number range for easier handling
+## just keeping list of reserved nodes, don't care about why if users cant use them
+for(j in 1:nrow(ca_reservation)){
+    if(!is.na(ca_reservation[j,2])){
+            #         DEQ                     077-084
+            # reprovision 023,029,062,072-073,121,170
+            temp1 <- unlist(strsplit(ca_reservation[j,2],","))
+            temp_nodelist <- c()
+            for(i in 1:length(temp1)){
+                temp2 <- unlist(strsplit(temp1[i],"-"))
+                if(length(temp2)==2){
+                    temp_nodelist <- c(temp_nodelist,paste(sprintf("%03d",temp2[1]:temp2[2]),collapse=","))
+                }else{
+                    temp_nodelist <- c(temp_nodelist,temp2[1])
+                }
+            }
+            ca_reservation[j,2] <- paste(temp_nodelist,collapse=",")
+    }
+}
+ca_reservation <- paste(ca_reservation[,2],collapse=",")
+ca_reservation <- paste("ca",unlist(strsplit(ca_reservation,",")),sep="")
+
+for(j in 1:nrow(dt_reservation)){
+    if(!is.na(dt_reservation[j,2])){
+        temp1 <- unlist(strsplit(dt_reservation[j,2],","))
+        temp_nodelist <- c()
+        for(i in 1:length(temp1)){
+            temp2 <- unlist(strsplit(temp1[i],"-"))
+            if(length(temp2)==2){
+                temp_nodelist <- c(temp_nodelist,paste(sprintf("%03d",temp2[1]:temp2[2]),collapse=","))
+            }else{
+                temp_nodelist <- c(temp_nodelist,temp2[1])
+            }
+        }
+        dt_reservation[j,2] <- paste(temp_nodelist,collapse=",")
+    }
+}
+dt_reservation <- paste(dt_reservation[,2],collapse=",")
+dt_reservation <- paste("dt",unlist(strsplit(dt_reservation,",")),sep="")
+
+for(j in 1:nrow(hu_reservation)){
+    if(!is.na(hu_reservation[j,2])){
+        temp1 <- unlist(strsplit(hu_reservation[j,2],","))
+        temp_nodelist <- c()
+        for(i in 1:length(temp1)){
+            temp2 <- unlist(strsplit(temp1[i],"-"))
+            if(length(temp2)==2){
+                temp_nodelist <- c(temp_nodelist,paste(sprintf("%03d",temp2[1]:temp2[2]),collapse=","))
+            }else{
+                temp_nodelist <- c(temp_nodelist,temp2[1])
+            }
+        }
+        hu_reservation[j,2] <- paste(temp_nodelist,collapse=",")
+    }
+}
+hu_reservation <- paste(hu_reservation[,2],collapse=",")
+hu_reservation <- paste("hu",unlist(strsplit(hu_reservation,",")),sep="")
+
+# flag nodes as reserved
+ca_available$reserved <- ifelse(ca_available$node %in% ca_reservation,1,0)
+dt_available$reserved <- ifelse(dt_available$node %in% dt_reservation,1,0)
+hu_available$reserved <- ifelse(hu_available$node %in% hu_reservation,1,0)
+
+
+## cascades summary by queue
+## ca_available
+## ca_queues
+for(i in 1:length(ca_queues$PARTITION)){
+    tempnames <- c(colnames(ca_available),ca_queues$PARTITION[i])
+    temp <- unlist(strsplit(ca_queues$NODELIST[i],","))
+    ca_available$i <- ifelse(ca_available$node %in% temp,1,0)
+    colnames(ca_available) <- tempnames
+}
+
+for(i in 1:length(dt_queues$PARTITION)){
+    tempnames <- c(colnames(dt_available),dt_queues$PARTITION[i])
+    temp <- unlist(strsplit(dt_queues$NODELIST[i],","))
+    dt_available$i <- ifelse(dt_available$node %in% temp,1,0)
+    colnames(dt_available) <- tempnames
+}
+
+for(i in 1:length(hu_queues$PARTITION)){
+    tempnames <- c(colnames(hu_available),hu_queues$PARTITION[i])
+    temp <- unlist(strsplit(hu_queues$NODELIST[i],","))
+    hu_available$i <- ifelse(hu_available$node %in% temp,1,0)
+    colnames(hu_available) <- tempnames
+}
+
+ca_summary <- as.data.frame(matrix(0,nrow=7,ncol=length(ca_queues$PARTITION)))
+colnames(ca_summary) <- ca_queues$PARTITION
+rownames(ca_summary) <- c("total cores/node","nodes in partition","reserved/down nodes","cores available","1/2 nodes available","full nodes available","%utilization cores/nodes")
+
+dt_summary <- as.data.frame(matrix(0,nrow=7,ncol=length(dt_queues$PARTITION)))
+colnames(dt_summary) <- dt_queues$PARTITION
+rownames(dt_summary) <- c("total cores/node","nodes in partition","reserved/down nodes","cores available","1/2 nodes available","full nodes available","%utilization cores/nodes")
+
+hu_summary <- as.data.frame(matrix(0,nrow=7,ncol=length(hu_queues$PARTITION)))
+colnames(hu_summary) <- hu_queues$PARTITION
+rownames(hu_summary) <- c("total cores/node","nodes in partition","reserved/down nodes","cores available","1/2 nodes available","full nodes available","%utilization cores/nodes")
+
+## get core summary by queue
+## get 1/2 node availability by queue
+## get full node availability by queue
+
+for(i in 1:ncol(ca_summary)){
+    current_queue <- colnames(ca_summary)[i]
+    nodes_in_queue <- unlist(strsplit(ca_queues[ca_queues$PARTITION %in% current_queue,2],","))
+    queue_status <- ca_available[ca_available[,current_queue]==1,]
+    if(nrow(queue_status)>0){
+        ca_summary[1,i] <- max(queue_status$total)
+        ca_summary[2,i] <- length(nodes_in_queue)
+        queue_status <- queue_status[queue_status$total==ca_summary[1,i],] ## get rid of junk nodes
+        queue_status <- queue_status[queue_status$reserved == 0,] ## remove reserved nodes
+        ca_summary[3,i] <- length(nodes_in_queue) - nrow(queue_status)
+        ca_summary[4,i] <- sum(queue_status$free)
+        ca_summary[5,i] <- sum((queue_status$free>queue_status$used-1)*1)
+        ca_summary[6,i] <- sum((queue_status$free==ca_summary[1,i])*1)
+        core_utilization <- round(100-sum(queue_status$free)*100/sum(queue_status$total),1)
+        node_utilization <- round(100-sum((queue_status$free==ca_summary[1,i])*1)*100/nrow(queue_status),1)
+        ca_summary[7,i] <- paste0(core_utilization,"/",node_utilization)
+    }
+}
+
+for(i in 1:ncol(dt_summary)){
+    current_queue <- colnames(dt_summary)[i]
+    nodes_in_queue <- unlist(strsplit(dt_queues[dt_queues$PARTITION %in% current_queue,2],","))
+    queue_status <- dt_available[dt_available[,current_queue]==1,]
+    if(nrow(queue_status)>0){
+        dt_summary[1,i] <- max(queue_status$total)
+        dt_summary[2,i] <- length(nodes_in_queue)
+        queue_status <- queue_status[queue_status$total==dt_summary[1,i],] ## get rid of junk nodes
+        queue_status <- queue_status[queue_status$reserved == 0,] ## remove reserved nodes
+        dt_summary[3,i] <- length(nodes_in_queue) - nrow(queue_status)
+        dt_summary[4,i] <- sum(queue_status$free)
+        dt_summary[5,i] <- sum((queue_status$free>queue_status$used-1)*1)
+        dt_summary[6,i] <- sum((queue_status$free==dt_summary[1,i])*1)
+        core_utilization <- round(100-sum(queue_status$free)*100/sum(queue_status$total),1)
+        node_utilization <- round(100-sum((queue_status$free==dt_summary[1,i])*1)*100/nrow(queue_status),1)
+        dt_summary[7,i] <- paste0(core_utilization,"/",node_utilization)
+    }
+}
+
+for(i in 1:ncol(hu_summary)){
+    current_queue <- colnames(hu_summary)[i]
+    nodes_in_queue <- unlist(strsplit(hu_queues[hu_queues$PARTITION %in% current_queue,2],","))
+    queue_status <- hu_available[hu_available[,current_queue]==1,]
+    if(nrow(queue_status)>0){
+        hu_summary[1,i] <- max(queue_status$total)
+        hu_summary[2,i] <- length(nodes_in_queue)
+        queue_status <- queue_status[queue_status$total==hu_summary[1,i],] ## get rid of junk nodes
+        queue_status <- queue_status[queue_status$reserved == 0,] ## remove reserved nodes
+        hu_summary[3,i] <- length(nodes_in_queue) - nrow(queue_status)
+        hu_summary[4,i] <- sum(queue_status$free)
+        hu_summary[5,i] <- sum((queue_status$free>queue_status$used-1)*1)
+        hu_summary[6,i] <- sum((queue_status$free==hu_summary[1,i])*1)
+        core_utilization <- round(100-sum(queue_status$free)*100/sum(queue_status$total),1)
+        node_utilization <- round(100-sum((queue_status$free==hu_summary[1,i])*1)*100/nrow(queue_status),1)
+        hu_summary[7,i] <- paste0(core_utilization,"/",node_utilization)
+    }
+}
+
+
+ca_table<-kable(ca_summary,format = "html", 
+                caption = paste0("Cascades core and node availability at ",(format(Sys.time(), '%d %B, %Y -- %I:%M%p')))) %>%
+    kable_styling("striped",full_width = FALSE,position = "left")
+
+dt_table<-kable(dt_summary,format = "html", 
+                caption = paste0("Dragonstooth core and node availability at ",(format(Sys.time(), '%d %B, %Y -- %I:%M%p')))) %>%
+    kable_styling("striped",full_width = FALSE,position = "float_left")
+
+hu_table<-kable(hu_summary,format = "html", 
+                caption = paste0("Huckleberry core and node availability at ",(format(Sys.time(), '%d %B, %Y -- %I:%M%p')))) %>%
+    kable_styling("striped",full_width = FALSE,position = "float_right")
+
+#save tables to file
+sink("./cluster_stats.txt")
+##capture.output(ca_table,"./cluster_stats.txt")
+cat("<img src='https://raw.githubusercontent.com/rsettlage/slurm_queue_stats/master/all_data_combined_today.jpg' alt='today' width='900'/>")
+cat("<img src='https://raw.githubusercontent.com/rsettlage/slurm_queue_stats/master/all_data_combined_month.jpg' alt='month' width='450'/>")
+cat("<img src='https://raw.githubusercontent.com/rsettlage/slurm_queue_stats/master/all_data_combined_year.jpg' alt='year' width='450'/>")
+print(ca_table)
+print(dt_table)
+print(hu_table)
+sink()
+
+##get data into long format and cat all machines together
+time_stamp <- format(Sys.time(), '%d-%B-%Y--%I:%M%P')
+ca_final <- ca_summary %>% 
+    mutate(metric=rownames(ca_summary)) %>% 
+    gather(key="queue",value="value",-metric) %>%
+    mutate(date=time_stamp, machine="cascades")
+
+dt_final <- dt_summary %>% 
+    mutate(metric=rownames(dt_summary)) %>% 
+    gather(key="queue",value="value",-metric) %>%
+    mutate(date=time_stamp, machine="dragonstooth")
+
+hu_final <- hu_summary %>% 
+    mutate(metric=rownames(hu_summary)) %>% 
+    gather(key="queue",value="value",-metric) %>%
+    mutate(date=time_stamp, machine="huckleberry")
+
+all_final <- rbind(ca_final,dt_final,hu_final)
+
+### save history
+saveRDS(all_final,paste0("all_final_",time_stamp,".RDS"))
+
+
+
