@@ -35,8 +35,8 @@ ca034 CPUAlloc= 32 CPUTot= 32
 ca035 CPUAlloc= 32 CPUTot= 32 
 ca036 CPUAlloc= 32 CPUTot= 32 
 ca037 CPUAlloc= 32 CPUTot= 32 
-ca038 CPUAlloc= 24 CPUTot= 32 
-ca039 CPUAlloc= 24 CPUTot= 32 
+ca038 CPUAlloc= 12 CPUTot= 32 
+ca039 CPUAlloc= 12 CPUTot= 32 
 ca040 CPUAlloc= 32 CPUTot= 32 
 ca041 CPUAlloc= 32 CPUTot= 32 
 ca042 CPUAlloc= 32 CPUTot= 32 
