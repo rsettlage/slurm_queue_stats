@@ -70,7 +70,7 @@ ca070 CPUAlloc= 32 CPUTot= 32
 ca071 CPUAlloc= 30 CPUTot= 32 
 ca072 CPUAlloc= 20 CPUTot= 32 
 ca073 CPUAlloc= 32 CPUTot= 32 
-ca074 CPUAlloc= 30 CPUTot= 32 
+ca074 CPUAlloc= 26 CPUTot= 32 
 ca075 CPUAlloc= 32 CPUTot= 32 
 ca076 CPUAlloc= 21 CPUTot= 32 
 ca077 CPUAlloc= 0 CPUTot= 32 
