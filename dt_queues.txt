@@ -1,7 +1,7 @@
 PARTITION     AVAIL  TIMELIMIT   NODES(A/I/O/T)  NODELIST
-normal_q*        up 30-00:00:0       13/28/1/42  dt[003-044]
-dev_q            up    4:00:00       13/33/1/47  dt[003-048,051]
-low_q            up    6:00:00       13/33/1/47  dt[003-048,051]
-preemptable_q    up    6:00:00       13/33/1/47  dt[003-048,051]
+normal_q*        up 30-00:00:0       16/25/1/42  dt[003-044]
+dev_q            up    4:00:00       16/30/1/47  dt[003-048,051]
+low_q            up    6:00:00       16/30/1/47  dt[003-048,051]
+preemptable_q    up    6:00:00       16/30/1/47  dt[003-048,051]
 renderman_q      up 30-00:00:0          0/4/0/4  dt[035-038]
 interactive_q    up    4:00:00          0/3/0/3  dt[045-047]
