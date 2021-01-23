@@ -8,7 +8,7 @@ ca007 CPUAlloc= 32 CPUTot= 32
 ca008 CPUAlloc= 32 CPUTot= 32 
 ca009 CPUAlloc= 32 CPUTot= 32 
 ca010 CPUAlloc= 32 CPUTot= 32 
-ca011 CPUAlloc= 24 CPUTot= 32 
+ca011 CPUAlloc= 28 CPUTot= 32 
 ca012 CPUAlloc= 32 CPUTot= 32 
 ca013 CPUAlloc= 32 CPUTot= 32 
 ca014 CPUAlloc= 0 CPUTot= 32 
@@ -72,7 +72,7 @@ ca072 CPUAlloc= 28 CPUTot= 32
 ca073 CPUAlloc= 32 CPUTot= 32 
 ca074 CPUAlloc= 10 CPUTot= 32 
 ca075 CPUAlloc= 32 CPUTot= 32 
-ca076 CPUAlloc= 25 CPUTot= 32 
+ca076 CPUAlloc= 21 CPUTot= 32 
 ca077 CPUAlloc= 0 CPUTot= 32 
 ca078 CPUAlloc= 0 CPUTot= 32 
 ca079 CPUAlloc= 0 CPUTot= 32 
@@ -146,7 +146,7 @@ ca149 CPUAlloc= 32 CPUTot= 32
 ca150 CPUAlloc= 32 CPUTot= 32 
 ca151 CPUAlloc= 32 CPUTot= 32 
 ca152 CPUAlloc= 32 CPUTot= 32 
-ca153 CPUAlloc= 29 CPUTot= 32 
+ca153 CPUAlloc= 28 CPUTot= 32 
 ca154 CPUAlloc= 32 CPUTot= 32 
 ca155 CPUAlloc= 32 CPUTot= 32 
 ca156 CPUAlloc= 32 CPUTot= 32 
@@ -196,9 +196,9 @@ ca199 CPUAlloc= 24 CPUTot= 24 available/allocated gres/gpu= 2 available/allocate
 ca200 CPUAlloc= 24 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
 ca201 CPUAlloc= 24 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
 ca202 CPUAlloc= 2 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
-ca203 CPUAlloc= 3 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
+ca203 CPUAlloc= 1 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 1 
 ca204 CPUAlloc= 24 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
-ca205 CPUAlloc= 3 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
+ca205 CPUAlloc= 1 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 1 
 ca206 CPUAlloc= 2 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
 ca207 CPUAlloc= 2 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
 ca208 CPUAlloc= 2 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
