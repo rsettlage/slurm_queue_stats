@@ -1,5 +1,5 @@
 PARTITION     AVAIL  TIMELIMIT   NODES(A/I/O/T) NODELIST 
-normal_q*        up   infinite    107/186/9/302 tc[001-302] 
+normal_q*        up   infinite    109/184/9/302 tc[001-302] 
 largemem_q       up   infinite          1/4/3/8 tc-hm[001-008] 
 preemptable_q    up   infinite    109/189/9/307 tc[001-307] 
 dev_q            up   infinite    109/189/9/307 tc[001-307] 
