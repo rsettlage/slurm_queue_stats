@@ -16,7 +16,6 @@ ca015 CPUAlloc= 0 CPUTot= 32
 ca016 CPUAlloc= 32 CPUTot= 32 
 ca017 CPUAlloc= 32 CPUTot= 32 
 ca018 CPUAlloc= 16 CPUTot= 32 
-ca019 CPUAlloc= 32 CPUTot= 32 
 ca020 CPUAlloc= 32 CPUTot= 32 
 ca021 CPUAlloc= 32 CPUTot= 32 
 ca022 CPUAlloc= 24 CPUTot= 32 
@@ -56,7 +55,7 @@ ca055 CPUAlloc= 32 CPUTot= 32
 ca056 CPUAlloc= 32 CPUTot= 32 
 ca057 CPUAlloc= 32 CPUTot= 32 
 ca058 CPUAlloc= 32 CPUTot= 32 
-ca059 CPUAlloc= 32 CPUTot= 32 
+ca059 CPUAlloc= 0 CPUTot= 32 
 ca060 CPUAlloc= 32 CPUTot= 32 
 ca061 CPUAlloc= 32 CPUTot= 32 
 ca062 CPUAlloc= 32 CPUTot= 32 
