@@ -1,15 +1,6 @@
+470078 (BeginTime) dragonstooth
 470077 (BeginTime) dragonstooth
 470076 (BeginTime) dragonstooth
 470075 (BeginTime) dragonstooth
 470074 (BeginTime) dragonstooth
 470073 (BeginTime) dragonstooth
-470072 (BeginTime) dragonstooth
-470060 (QOSMaxJobsPerUserLimit) dragonstooth
-470061 (QOSMaxJobsPerUserLimit) dragonstooth
-470062 (QOSMaxJobsPerUserLimit) dragonstooth
-470063 (QOSMaxJobsPerUserLimit) dragonstooth
-470064 (QOSMaxJobsPerUserLimit) dragonstooth
-470065 (QOSMaxJobsPerUserLimit) dragonstooth
-470066 (QOSMaxJobsPerUserLimit) dragonstooth
-470067 (QOSMaxJobsPerUserLimit) dragonstooth
-470068 (QOSMaxJobsPerUserLimit) dragonstooth
