@@ -20,12 +20,6 @@
 544414 (QOSMaxJobsPerUserLimit) cascades
 544415 (QOSMaxJobsPerUserLimit) cascades
 544967 (PartitionNodeLimit) cascades
-545000 (QOSMaxJobsPerUserLimit) cascades
-545001 (QOSMaxJobsPerUserLimit) cascades
-545002 (QOSMaxJobsPerUserLimit) cascades
-545003 (QOSMaxJobsPerUserLimit) cascades
-545004 (QOSMaxJobsPerUserLimit) cascades
-545005 (QOSMaxJobsPerUserLimit) cascades
 545006 (QOSMaxJobsPerUserLimit) cascades
 545007 (QOSMaxJobsPerUserLimit) cascades
 545008 (QOSMaxJobsPerUserLimit) cascades
