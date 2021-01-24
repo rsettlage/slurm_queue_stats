@@ -1,9 +1,6 @@
+470967 (BeginTime) dragonstooth
 470966 (BeginTime) dragonstooth
 470965 (BeginTime) dragonstooth
 470964 (BeginTime) dragonstooth
 470963 (BeginTime) dragonstooth
 470962 (BeginTime) dragonstooth
-470961 (BeginTime) dragonstooth
-470936 (QOSMaxJobsPerUserLimit) dragonstooth
-470938 (QOSMaxJobsPerUserLimit) dragonstooth
-470939 (QOSMaxJobsPerUserLimit) dragonstooth
