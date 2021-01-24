@@ -19,3 +19,13 @@
 544413 (QOSMaxJobsPerUserLimit) cascades
 544414 (QOSMaxJobsPerUserLimit) cascades
 544415 (QOSMaxJobsPerUserLimit) cascades
+544807 (QOSMaxJobsPerUserLimit) cascades
+544808 (QOSMaxJobsPerUserLimit) cascades
+544809 (QOSMaxJobsPerUserLimit) cascades
+544810 (QOSMaxJobsPerUserLimit) cascades
+544811 (QOSMaxJobsPerUserLimit) cascades
+544812 (QOSMaxJobsPerUserLimit) cascades
+544813 (QOSMaxJobsPerUserLimit) cascades
+544814 (QOSMaxJobsPerUserLimit) cascades
+544815 (QOSMaxJobsPerUserLimit) cascades
+544816 (QOSMaxJobsPerUserLimit) cascades
