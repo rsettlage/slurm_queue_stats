@@ -2,7 +2,7 @@
 <img src='https://raw.githubusercontent.com/rsettlage/slurm_queue_stats/master/all_data_combined_month.jpg' alt='month' width='450'/>
 <img src='https://raw.githubusercontent.com/rsettlage/slurm_queue_stats/master/all_data_combined_year.jpg' alt='year' width='450'/>
 <table class="table table-striped" style="width: auto !important; ">
-<caption>Cascades core and node availability at 24 January, 2021 -- 01:00:32PM</caption>
+<caption>Cascades core and node availability at 24 January, 2021 -- 01:10:32PM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
@@ -109,7 +109,7 @@
 </tbody>
 </table>
 <table class="table table-striped" style="width: auto !important; float: left; margin-right: 10px;">
-<caption>Dragonstooth core and node availability at 24 January, 2021 -- 01:00:32PM</caption>
+<caption>Dragonstooth core and node availability at 24 January, 2021 -- 01:10:32PM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
@@ -139,32 +139,32 @@
   </tr>
   <tr>
    <td style="text-align:left;"> cores available </td>
-   <td style="text-align:left;"> 781 </td>
-   <td style="text-align:left;"> 661 </td>
-   <td style="text-align:left;"> 781 </td>
+   <td style="text-align:left;"> 724 </td>
+   <td style="text-align:left;"> 604 </td>
+   <td style="text-align:left;"> 724 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> 1/2 nodes available </td>
-   <td style="text-align:left;"> 35 </td>
    <td style="text-align:left;"> 30 </td>
-   <td style="text-align:left;"> 35 </td>
+   <td style="text-align:left;"> 25 </td>
+   <td style="text-align:left;"> 30 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> full nodes available </td>
-   <td style="text-align:left;"> 23 </td>
-   <td style="text-align:left;"> 18 </td>
-   <td style="text-align:left;"> 23 </td>
+   <td style="text-align:left;"> 27 </td>
+   <td style="text-align:left;"> 22 </td>
+   <td style="text-align:left;"> 27 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> %utilization cores/nodes </td>
-   <td style="text-align:left;"> 29.3/50 </td>
-   <td style="text-align:left;"> 32.8/56.1 </td>
-   <td style="text-align:left;"> 29.3/50 </td>
+   <td style="text-align:left;"> 34.4/41.3 </td>
+   <td style="text-align:left;"> 38.6/46.3 </td>
+   <td style="text-align:left;"> 34.4/41.3 </td>
   </tr>
 </tbody>
 </table>
 <table class="table table-striped" style="width: auto !important; float: right; margin-left: 10px;">
-<caption>Huckleberry core and node availability at 24 January, 2021 -- 01:00:32PM</caption>
+<caption>Huckleberry core and node availability at 24 January, 2021 -- 01:10:32PM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
