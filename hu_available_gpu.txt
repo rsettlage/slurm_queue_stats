@@ -6,6 +6,6 @@ hu007 CPUAlloc= 0 CPUTot= 20 available/allocated gres/gpu= 4 available/allocated
 hu008 CPUAlloc= 0 CPUTot= 20 available/allocated gres/gpu= 4 available/allocated gres/gpu= 0
 hu009 CPUAlloc= 0 CPUTot= 20 available/allocated gres/gpu= 4 available/allocated gres/gpu= 0
 hu010 CPUAlloc= 0 CPUTot= 20 available/allocated gres/gpu= 4 available/allocated gres/gpu= 0
-hu011 CPUAlloc= 20 CPUTot= 20 available/allocated gres/gpu= 4 available/allocated gres/gpu= 1 
+hu011 CPUAlloc= 0 CPUTot= 20 available/allocated gres/gpu= 4 available/allocated gres/gpu= 0
 hu012 CPUAlloc= 20 CPUTot= 20 available/allocated gres/gpu= 4 available/allocated gres/gpu= 1 
 hu013 CPUAlloc= 20 CPUTot= 20 available/allocated gres/gpu= 4 available/allocated gres/gpu= 1 
