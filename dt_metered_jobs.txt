@@ -1,6 +1,13 @@
+479822 (BeginTime) dragonstooth
 479620 (BeginTime) dragonstooth
 479619 (BeginTime) dragonstooth
 479218 (BeginTime) dragonstooth
 479217 (BeginTime) dragonstooth
 479016 (BeginTime) dragonstooth
-478815 (BeginTime) dragonstooth
+479814 (QOSMaxJobsPerUserLimit) dragonstooth
+479815 (QOSMaxJobsPerUserLimit) dragonstooth
+479816 (QOSMaxJobsPerUserLimit) dragonstooth
+479817 (QOSMaxJobsPerUserLimit) dragonstooth
+479818 (QOSMaxJobsPerUserLimit) dragonstooth
+479819 (QOSMaxJobsPerUserLimit) dragonstooth
+479820 (QOSMaxJobsPerUserLimit) dragonstooth
