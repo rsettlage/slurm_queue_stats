@@ -3,7 +3,7 @@ dt004 CPUAlloc= 8 CPUTot= 24
 dt006 CPUAlloc= 9 CPUTot= 24 
 dt007 CPUAlloc= 12 CPUTot= 24 
 dt008 CPUAlloc= 24 CPUTot= 24 
-dt009 CPUAlloc= 8 CPUTot= 24 
+dt009 CPUAlloc= 7 CPUTot= 24 
 dt010 CPUAlloc= 24 CPUTot= 24 
 dt011 CPUAlloc= 24 CPUTot= 24 
 dt012 CPUAlloc= 24 CPUTot= 24 
@@ -35,7 +35,7 @@ dt037 CPUAlloc= 0 CPUTot= 24
 dt038 CPUAlloc= 0 CPUTot= 24 
 dt039 CPUAlloc= 0 CPUTot= 24 
 dt040 CPUAlloc= 0 CPUTot= 24 
-dt041 CPUAlloc= 24 CPUTot= 24 
+dt041 CPUAlloc= 0 CPUTot= 24 
 dt042 CPUAlloc= 0 CPUTot= 24 
 dt043 CPUAlloc= 0 CPUTot= 24 
 dt044 CPUAlloc= 1 CPUTot= 24 
