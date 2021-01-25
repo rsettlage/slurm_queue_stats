@@ -1,3 +1,4 @@
 60994 (PartitionNodeLimit) huckleberry
 60995 (PartitionNodeLimit) huckleberry
 60996 (PartitionNodeLimit) huckleberry
+69053 (QOSMaxNodePerUserLimit) huckleberry
