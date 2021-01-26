@@ -147,8 +147,8 @@ tc147 CPUAlloc= 0 CPUTot= 128
 tc148 CPUAlloc= 128 CPUTot= 128 
 tc149 CPUAlloc= 32 CPUTot= 128 
 tc150 CPUAlloc= 32 CPUTot= 128 
-tc151 CPUAlloc= 124 CPUTot= 128 
-tc152 CPUAlloc= 124 CPUTot= 128 
+tc151 CPUAlloc= 32 CPUTot= 128 
+tc152 CPUAlloc= 32 CPUTot= 128 
 tc153 CPUAlloc= 124 CPUTot= 128 
 tc154 CPUAlloc= 124 CPUTot= 128 
 tc155 CPUAlloc= 124 CPUTot= 128 
