@@ -5,3 +5,5 @@
 546303 (QOSMaxNodePerUserLimit) cascades
 546307 (QOSMaxNodePerUserLimit) cascades
 546308 (QOSMaxNodePerUserLimit) cascades
+548251 (QOSMaxJobsPerUserLimit) cascades
+548252 (QOSMaxJobsPerUserLimit) cascades
