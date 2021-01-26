@@ -33,12 +33,12 @@ dt035 CPUAlloc= 13 CPUTot= 24
 dt036 CPUAlloc= 12 CPUTot= 24 
 dt037 CPUAlloc= 24 CPUTot= 24 
 dt038 CPUAlloc= 12 CPUTot= 24 
-dt039 CPUAlloc= 8 CPUTot= 24 
+dt039 CPUAlloc= 7 CPUTot= 24 
 dt040 CPUAlloc= 6 CPUTot= 24 
 dt041 CPUAlloc= 6 CPUTot= 24 
 dt042 CPUAlloc= 9 CPUTot= 24 
 dt043 CPUAlloc= 11 CPUTot= 24 
-dt044 CPUAlloc= 15 CPUTot= 24 
+dt044 CPUAlloc= 16 CPUTot= 24 
 dt045 CPUAlloc= 0 CPUTot= 24 
 dt046 CPUAlloc= 0 CPUTot= 24 
 dt047 CPUAlloc= 0 CPUTot= 24 
