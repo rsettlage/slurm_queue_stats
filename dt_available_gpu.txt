@@ -39,8 +39,8 @@ dt041 CPUAlloc= 24 CPUTot= 24
 dt042 CPUAlloc= 24 CPUTot= 24 
 dt043 CPUAlloc= 24 CPUTot= 24 
 dt044 CPUAlloc= 24 CPUTot= 24 
-dt045 CPUAlloc= 1 CPUTot= 24 
-dt046 CPUAlloc= 0 CPUTot= 24 
+dt045 CPUAlloc= 24 CPUTot= 24 
+dt046 CPUAlloc= 9 CPUTot= 24 
 dt047 CPUAlloc= 0 CPUTot= 24 
 dt048 CPUAlloc= 0 CPUTot= 24 
 dt051 CPUAlloc= 0 CPUTot= 24 
