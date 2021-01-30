@@ -1,6 +1,16 @@
+67014 (BeginTime) cascades
 66901 (BeginTime) cascades
 66900 (BeginTime) cascades
 66899 (BeginTime) cascades
 66798 (BeginTime) cascades
 66797 (BeginTime) cascades
-66696 (BeginTime) cascades
+67011 (QOSMaxJobsPerUserLimit) cascades
+67012 (QOSMaxJobsPerUserLimit) cascades
+67013 (QOSMaxJobsPerUserLimit) cascades
+66996 (QOSMaxJobsPerUserLimit) cascades
+66997 (QOSMaxJobsPerUserLimit) cascades
+66998 (QOSMaxJobsPerUserLimit) cascades
+66999 (QOSMaxJobsPerUserLimit) cascades
+67000 (QOSMaxJobsPerUserLimit) cascades
+67001 (QOSMaxJobsPerUserLimit) cascades
+67002 (QOSMaxJobsPerUserLimit) cascades
