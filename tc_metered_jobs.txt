@@ -1,6 +1,11 @@
+64294 (BeginTime) cascades
 64193 (BeginTime) cascades
 64192 (BeginTime) cascades
 64191 (BeginTime) cascades
 64087 (BeginTime) cascades
 64083 (BeginTime) cascades
-63981 (BeginTime) cascades
+64289 (QOSMaxJobsPerUserLimit) cascades
+64290 (QOSMaxJobsPerUserLimit) cascades
+64291 (QOSMaxJobsPerUserLimit) cascades
+64292 (QOSMaxJobsPerUserLimit) cascades
+64293 (QOSMaxJobsPerUserLimit) cascades
