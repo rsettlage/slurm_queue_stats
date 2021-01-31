@@ -1,3 +1,2 @@
        JobID              Submit               Start            Eligible  Partition          Reservation AllocNodes  AllocCPUS ReqNodes  ReqCPUS      ReqGRES  Timelimit    Elapsed  huckleberry
 ------------ ------------------- ------------------- ------------------- ---------- -------------------- ---------- ---------- -------- -------- ------------ ---------- ----------  huckleberry
-69078        2021-01-29T14:15:44 2021-01-29T14:15:45 2021-01-29T14:15:44   normal_q                               1          1        1        1              2-12:00:00 1-07:06:26  huckleberry
