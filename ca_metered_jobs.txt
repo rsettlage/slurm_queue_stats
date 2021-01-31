@@ -80,3 +80,15 @@
 553321 (QOSMaxJobsPerUserLimit) cascades
 553322 (QOSMaxJobsPerUserLimit) cascades
 553323 (QOSMaxJobsPerUserLimit) cascades
+556148 (QOSMaxJobsPerUserLimit) cascades
+556149 (QOSMaxJobsPerUserLimit) cascades
+556150 (QOSMaxJobsPerUserLimit) cascades
+556151 (QOSMaxJobsPerUserLimit) cascades
+556152 (QOSMaxJobsPerUserLimit) cascades
+556153 (QOSMaxJobsPerUserLimit) cascades
+556154 (QOSMaxJobsPerUserLimit) cascades
+556155 (QOSMaxJobsPerUserLimit) cascades
+556156 (QOSMaxJobsPerUserLimit) cascades
+556157 (QOSMaxJobsPerUserLimit) cascades
+556158 (QOSMaxJobsPerUserLimit) cascades
+556159 (QOSMaxJobsPerUserLimit) cascades
