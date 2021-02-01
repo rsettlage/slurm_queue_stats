@@ -1,4 +1,4 @@
-ca001 CPUAlloc= 60 CPUTot= 72 
+ca001 CPUAlloc= 52 CPUTot= 72 
 ca002 CPUAlloc= 25 CPUTot= 72 
 ca003 CPUAlloc= 32 CPUTot= 32 available/allocated gres/gpu= 4 available/allocated gres/gpu= 0
 ca004 CPUAlloc= 0 CPUTot= 32 available/allocated gres/gpu= 4 available/allocated gres/gpu= 0
@@ -81,7 +81,7 @@ ca081 CPUAlloc= 0 CPUTot= 32
 ca082 CPUAlloc= 0 CPUTot= 32 
 ca083 CPUAlloc= 32 CPUTot= 32 
 ca084 CPUAlloc= 32 CPUTot= 32 
-ca085 CPUAlloc= 24 CPUTot= 32 
+ca085 CPUAlloc= 30 CPUTot= 32 
 ca086 CPUAlloc= 0 CPUTot= 32 
 ca087 CPUAlloc= 32 CPUTot= 32 
 ca088 CPUAlloc= 32 CPUTot= 32 
