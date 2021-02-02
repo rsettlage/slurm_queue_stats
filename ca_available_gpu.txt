@@ -49,8 +49,8 @@ ca048 CPUAlloc= 32 CPUTot= 32
 ca049 CPUAlloc= 32 CPUTot= 32 
 ca050 CPUAlloc= 32 CPUTot= 32 
 ca051 CPUAlloc= 32 CPUTot= 32 
-ca052 CPUAlloc= 24 CPUTot= 32 
-ca053 CPUAlloc= 24 CPUTot= 32 
+ca052 CPUAlloc= 32 CPUTot= 32 
+ca053 CPUAlloc= 32 CPUTot= 32 
 ca054 CPUAlloc= 32 CPUTot= 32 
 ca055 CPUAlloc= 24 CPUTot= 32 
 ca056 CPUAlloc= 32 CPUTot= 32 
@@ -76,12 +76,11 @@ ca075 CPUAlloc= 32 CPUTot= 32
 ca076 CPUAlloc= 32 CPUTot= 32 
 ca077 CPUAlloc= 0 CPUTot= 32 
 ca078 CPUAlloc= 0 CPUTot= 32 
-ca079 CPUAlloc= 32 CPUTot= 32 
 ca080 CPUAlloc= 0 CPUTot= 32 
 ca081 CPUAlloc= 0 CPUTot= 32 
 ca082 CPUAlloc= 0 CPUTot= 32 
-ca083 CPUAlloc= 32 CPUTot= 32 
-ca084 CPUAlloc= 32 CPUTot= 32 
+ca083 CPUAlloc= 0 CPUTot= 32 
+ca084 CPUAlloc= 0 CPUTot= 32 
 ca085 CPUAlloc= 24 CPUTot= 32 
 ca086 CPUAlloc= 32 CPUTot= 32 
 ca087 CPUAlloc= 32 CPUTot= 32 
@@ -102,8 +101,8 @@ ca101 CPUAlloc= 32 CPUTot= 32
 ca102 CPUAlloc= 32 CPUTot= 32 
 ca103 CPUAlloc= 24 CPUTot= 32 
 ca104 CPUAlloc= 32 CPUTot= 32 
-ca105 CPUAlloc= 24 CPUTot= 32 
-ca106 CPUAlloc= 24 CPUTot= 32 
+ca105 CPUAlloc= 32 CPUTot= 32 
+ca106 CPUAlloc= 32 CPUTot= 32 
 ca108 CPUAlloc= 1 CPUTot= 32 
 ca109 CPUAlloc= 32 CPUTot= 32 
 ca110 CPUAlloc= 32 CPUTot= 32 
@@ -204,7 +203,7 @@ ca207 CPUAlloc= 16 CPUTot= 24 available/allocated gres/gpu= 2 available/allocate
 ca208 CPUAlloc= 2 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
 ca209 CPUAlloc= 24 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 0
 ca210 CPUAlloc= 15 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
-ca211 CPUAlloc= 8 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
+ca211 CPUAlloc= 0 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 0
 ca212 CPUAlloc= 8 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
 ca213 CPUAlloc= 24 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
 ca214 CPUAlloc= 24 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
