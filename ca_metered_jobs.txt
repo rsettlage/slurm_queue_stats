@@ -72,3 +72,13 @@
 557979 (QOSMaxJobsPerUserLimit) cascades
 557980 (QOSMaxJobsPerUserLimit) cascades
 557981 (QOSMaxJobsPerUserLimit) cascades
+557983 (QOSMaxJobsPerUserLimit) cascades
+557984 (QOSMaxJobsPerUserLimit) cascades
+557985 (QOSMaxJobsPerUserLimit) cascades
+557986 (QOSMaxJobsPerUserLimit) cascades
+557987 (QOSMaxJobsPerUserLimit) cascades
+557988 (QOSMaxJobsPerUserLimit) cascades
+557989 (QOSMaxJobsPerUserLimit) cascades
+557990 (QOSMaxJobsPerUserLimit) cascades
+557991 (QOSMaxJobsPerUserLimit) cascades
+557992 (QOSMaxJobsPerUserLimit) cascades
