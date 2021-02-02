@@ -1,6 +1,8 @@
+573976 (BeginTime) dragonstooth
 573775 (BeginTime) dragonstooth
 573574 (BeginTime) dragonstooth
 573373 (BeginTime) dragonstooth
 573172 (BeginTime) dragonstooth
 573171 (BeginTime) dragonstooth
-572970 (BeginTime) dragonstooth
+573974 (QOSMaxJobsPerUserLimit) dragonstooth
+573975 (QOSMaxJobsPerUserLimit) dragonstooth
