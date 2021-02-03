@@ -1,11 +1,6 @@
+584253 (BeginTime) dragonstooth
 584252 (BeginTime) dragonstooth
 584251 (BeginTime) dragonstooth
 584250 (BeginTime) dragonstooth
 584249 (BeginTime) dragonstooth
 584248 (BeginTime) dragonstooth
-583947 (BeginTime) dragonstooth
-583888 (QOSMaxJobsPerUserLimit) dragonstooth
-583889 (QOSMaxJobsPerUserLimit) dragonstooth
-583890 (QOSMaxJobsPerUserLimit) dragonstooth
-583891 (QOSMaxJobsPerUserLimit) dragonstooth
-583892 (QOSMaxJobsPerUserLimit) dragonstooth
