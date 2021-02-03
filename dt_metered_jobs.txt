@@ -1,8 +1,6 @@
+586563 (BeginTime) dragonstooth
 586562 (BeginTime) dragonstooth
 586361 (BeginTime) dragonstooth
 586360 (BeginTime) dragonstooth
 586359 (BeginTime) dragonstooth
 586358 (BeginTime) dragonstooth
-586157 (BeginTime) dragonstooth
-586560 (QOSMaxJobsPerUserLimit) dragonstooth
-586561 (QOSMaxJobsPerUserLimit) dragonstooth
