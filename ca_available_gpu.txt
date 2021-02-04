@@ -127,8 +127,8 @@ ca127 CPUAlloc= 32 CPUTot= 32
 ca128 CPUAlloc= 32 CPUTot= 32 
 ca129 CPUAlloc= 32 CPUTot= 32 
 ca130 CPUAlloc= 32 CPUTot= 32 
-ca131 CPUAlloc= 30 CPUTot= 32 
-ca132 CPUAlloc= 15 CPUTot= 32 
+ca131 CPUAlloc= 31 CPUTot= 32 
+ca132 CPUAlloc= 22 CPUTot= 32 
 ca133 CPUAlloc= 32 CPUTot= 32 
 ca134 CPUAlloc= 32 CPUTot= 32 
 ca135 CPUAlloc= 32 CPUTot= 32 
