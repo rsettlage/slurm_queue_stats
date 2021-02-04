@@ -290,8 +290,8 @@ tc292 CPUAlloc= 128 CPUTot= 128
 tc293 CPUAlloc= 128 CPUTot= 128 
 tc294 CPUAlloc= 128 CPUTot= 128 
 tc295 CPUAlloc= 128 CPUTot= 128 
-tc296 CPUAlloc= 0 CPUTot= 128 
-tc297 CPUAlloc= 0 CPUTot= 128 
+tc296 CPUAlloc= 128 CPUTot= 128 
+tc297 CPUAlloc= 128 CPUTot= 128 
 tc298 CPUAlloc= 0 CPUTot= 128 
 tc299 CPUAlloc= 100 CPUTot= 128 
 tc300 CPUAlloc= 104 CPUTot= 128 
