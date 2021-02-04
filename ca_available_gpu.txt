@@ -183,11 +183,11 @@ ca185 CPUAlloc= 32 CPUTot= 32
 ca186 CPUAlloc= 24 CPUTot= 32 
 ca187 CPUAlloc= 32 CPUTot= 32 
 ca188 CPUAlloc= 32 CPUTot= 32 
-ca189 CPUAlloc= 27 CPUTot= 32 
-ca190 CPUAlloc= 27 CPUTot= 32 
+ca189 CPUAlloc= 24 CPUTot= 32 
+ca190 CPUAlloc= 24 CPUTot= 32 
 ca191 CPUAlloc= 32 CPUTot= 32 
-ca192 CPUAlloc= 27 CPUTot= 32 
-ca193 CPUAlloc= 25 CPUTot= 32 
+ca192 CPUAlloc= 24 CPUTot= 32 
+ca193 CPUAlloc= 24 CPUTot= 32 
 ca194 CPUAlloc= 32 CPUTot= 32 
 ca195 CPUAlloc= 0 CPUTot= 32 
 ca196 CPUAlloc= 0 CPUTot= 32 
