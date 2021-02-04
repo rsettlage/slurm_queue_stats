@@ -2,7 +2,7 @@
 <img src='https://raw.githubusercontent.com/rsettlage/slurm_queue_stats/master/all_data_combined_month.jpg' alt='month' width='450'/>
 <img src='https://raw.githubusercontent.com/rsettlage/slurm_queue_stats/master/all_data_combined_year.jpg' alt='year' width='450'/>
 <table class="table table-striped" style="width: auto !important; ">
-<caption>Cascades core and node availability at 04 February, 2021 -- 07:40:35AM</caption>
+<caption>Cascades core and node availability at 04 February, 2021 -- 07:50:35AM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
@@ -58,9 +58,9 @@
   </tr>
   <tr>
    <td style="text-align:left;"> cores available </td>
-   <td style="text-align:left;"> 436 </td>
-   <td style="text-align:left;"> 372 </td>
-   <td style="text-align:left;"> 436 </td>
+   <td style="text-align:left;"> 413 </td>
+   <td style="text-align:left;"> 349 </td>
+   <td style="text-align:left;"> 413 </td>
    <td style="text-align:left;"> 55 </td>
    <td style="text-align:left;"> 0 </td>
    <td style="text-align:left;"> 360 </td>
@@ -98,9 +98,9 @@
   </tr>
   <tr>
    <td style="text-align:left;"> %utilization cores/nodes </td>
-   <td style="text-align:left;"> 92.3/98.3 </td>
-   <td style="text-align:left;"> 93.4/99.4 </td>
-   <td style="text-align:left;"> 92.3/98.3 </td>
+   <td style="text-align:left;"> 92.7/98.3 </td>
+   <td style="text-align:left;"> 93.8/99.4 </td>
+   <td style="text-align:left;"> 92.7/98.3 </td>
    <td style="text-align:left;"> 61.8/100 </td>
    <td style="text-align:left;"> 100/100 </td>
    <td style="text-align:left;"> 60.5/100 </td>
@@ -109,7 +109,7 @@
 </tbody>
 </table>
 <table class="table table-striped" style="width: auto !important; float: left; margin-right: 10px;">
-<caption>Dragonstooth core and node availability at 04 February, 2021 -- 07:40:35AM</caption>
+<caption>Dragonstooth core and node availability at 04 February, 2021 -- 07:50:35AM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
@@ -164,7 +164,7 @@
 </tbody>
 </table>
 <table class="table table-striped" style="width: auto !important; float: right; margin-left: 10px;">
-<caption>Huckleberry core and node availability at 04 February, 2021 -- 07:40:35AM</caption>
+<caption>Huckleberry core and node availability at 04 February, 2021 -- 07:50:35AM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
