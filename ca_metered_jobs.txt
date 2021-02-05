@@ -28,13 +28,6 @@
 557991 (QOSMaxJobsPerUserLimit) cascades
 557992 (QOSMaxJobsPerUserLimit) cascades
 560957 (QOSMaxJobsPerUserLimit) cascades
-561289 (QOSMaxJobsPerUserLimit) cascades
-561290 (QOSMaxJobsPerUserLimit) cascades
-561291 (QOSMaxJobsPerUserLimit) cascades
-561292 (QOSMaxJobsPerUserLimit) cascades
-561293 (QOSMaxJobsPerUserLimit) cascades
-561296 (QOSMaxJobsPerUserLimit) cascades
-561297 (QOSMaxJobsPerUserLimit) cascades
 561298 (QOSMaxJobsPerUserLimit) cascades
 561299 (QOSMaxJobsPerUserLimit) cascades
 561300 (QOSMaxJobsPerUserLimit) cascades
