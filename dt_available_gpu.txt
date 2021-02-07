@@ -28,14 +28,14 @@ dt029 CPUAlloc= 0 CPUTot= 24
 dt030 CPUAlloc= 0 CPUTot= 24 
 dt031 CPUAlloc= 0 CPUTot= 24 
 dt032 CPUAlloc= 9 CPUTot= 24 
-dt033 CPUAlloc= 5 CPUTot= 24 
+dt033 CPUAlloc= 4 CPUTot= 24 
 dt034 CPUAlloc= 24 CPUTot= 24 
 dt035 CPUAlloc= 24 CPUTot= 24 
 dt036 CPUAlloc= 24 CPUTot= 24 
 dt037 CPUAlloc= 24 CPUTot= 24 
 dt038 CPUAlloc= 24 CPUTot= 24 
 dt039 CPUAlloc= 0 CPUTot= 24 
-dt040 CPUAlloc= 6 CPUTot= 24 
+dt040 CPUAlloc= 7 CPUTot= 24 
 dt041 CPUAlloc= 24 CPUTot= 24 
 dt042 CPUAlloc= 24 CPUTot= 24 
 dt043 CPUAlloc= 24 CPUTot= 24 
