@@ -1,12 +1,9 @@
+617826 (BeginTime) dragonstooth
 617825 (BeginTime) dragonstooth
 617823 (BeginTime) dragonstooth
 617822 (BeginTime) dragonstooth
 617821 (BeginTime) dragonstooth
 617819 (BeginTime) dragonstooth
-617818 (BeginTime) dragonstooth
-617617 (QOSMaxJobsPerUserLimit) dragonstooth
-617618 (QOSMaxJobsPerUserLimit) dragonstooth
-617619 (QOSMaxJobsPerUserLimit) dragonstooth
 617620 (QOSMaxJobsPerUserLimit) dragonstooth
 617621 (QOSMaxJobsPerUserLimit) dragonstooth
 617622 (QOSMaxJobsPerUserLimit) dragonstooth
