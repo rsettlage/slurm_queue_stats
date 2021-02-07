@@ -1,3 +1,8 @@
+557861 (QOSMaxNodePerUserLimit) cascades
+557862 (QOSMaxNodePerUserLimit) cascades
+557863 (QOSMaxNodePerUserLimit) cascades
+558275 (QOSMaxNodePerUserLimit) cascades
+558279 (QOSMaxNodePerUserLimit) cascades
 297914 (QOSMaxCpuMinutesPerJobLimit) cascades
 558261 (QOSMaxCpuPerUserLimit) cascades
 558262 (QOSMaxCpuPerUserLimit) cascades
