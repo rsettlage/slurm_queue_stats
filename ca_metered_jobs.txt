@@ -7,4 +7,7 @@
 558261 (QOSMaxCpuPerUserLimit) cascades
 558262 (QOSMaxCpuPerUserLimit) cascades
 558263 (QOSMaxCpuPerUserLimit) cascades
+558358 (BeginTime) cascades
+558357 (BeginTime) cascades
+558356 (BeginTime) cascades
 560957 (QOSMaxJobsPerUserLimit) cascades
