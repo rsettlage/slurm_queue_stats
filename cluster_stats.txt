@@ -2,7 +2,7 @@
 <img src='https://raw.githubusercontent.com/rsettlage/slurm_queue_stats/master/all_data_combined_month.jpg' alt='month' width='450'/>
 <img src='https://raw.githubusercontent.com/rsettlage/slurm_queue_stats/master/all_data_combined_year.jpg' alt='year' width='450'/>
 <table class="table table-striped" style="width: auto !important; ">
-<caption>Cascades core and node availability at 07 February, 2021 -- 10:20:37AM</caption>
+<caption>Cascades core and node availability at 07 February, 2021 -- 10:30:37AM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
@@ -48,9 +48,9 @@
   </tr>
   <tr>
    <td style="text-align:left;"> reserved/down nodes </td>
-   <td style="text-align:left;"> 12 </td>
-   <td style="text-align:left;"> 12 </td>
-   <td style="text-align:left;"> 12 </td>
+   <td style="text-align:left;"> 13 </td>
+   <td style="text-align:left;"> 13 </td>
+   <td style="text-align:left;"> 13 </td>
    <td style="text-align:left;"> 0 </td>
    <td style="text-align:left;"> 2 </td>
    <td style="text-align:left;"> 0 </td>
@@ -58,13 +58,13 @@
   </tr>
   <tr>
    <td style="text-align:left;"> cores available </td>
-   <td style="text-align:left;"> 313 </td>
-   <td style="text-align:left;"> 249 </td>
-   <td style="text-align:left;"> 313 </td>
-   <td style="text-align:left;"> 87 </td>
+   <td style="text-align:left;"> 274 </td>
+   <td style="text-align:left;"> 210 </td>
+   <td style="text-align:left;"> 274 </td>
+   <td style="text-align:left;"> 72 </td>
    <td style="text-align:left;"> 0 </td>
-   <td style="text-align:left;"> 381 </td>
-   <td style="text-align:left;"> 429 </td>
+   <td style="text-align:left;"> 380 </td>
+   <td style="text-align:left;"> 428 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> gpus available </td>
@@ -73,43 +73,43 @@
    <td style="text-align:left;"> - </td>
    <td style="text-align:left;"> - </td>
    <td style="text-align:left;"> 8 </td>
-   <td style="text-align:left;"> 4 </td>
-   <td style="text-align:left;"> 8 </td>
+   <td style="text-align:left;"> 3 </td>
+   <td style="text-align:left;"> 7 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> 1/2 nodes available </td>
-   <td style="text-align:left;"> 3 </td>
-   <td style="text-align:left;"> 1 </td>
-   <td style="text-align:left;"> 3 </td>
    <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 1 </td>
    <td style="text-align:left;"> 0 </td>
    <td style="text-align:left;"> 16 </td>
    <td style="text-align:left;"> 18 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> full nodes available </td>
-   <td style="text-align:left;"> 3 </td>
-   <td style="text-align:left;"> 1 </td>
-   <td style="text-align:left;"> 3 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> 2 </td>
    <td style="text-align:left;"> 0 </td>
    <td style="text-align:left;"> 0 </td>
-   <td style="text-align:left;"> 1 </td>
-   <td style="text-align:left;"> 3 </td>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:left;"> 2 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> %utilization cores/nodes </td>
-   <td style="text-align:left;"> 94.5/98.3 </td>
-   <td style="text-align:left;"> 95.6/99.4 </td>
-   <td style="text-align:left;"> 94.5/98.3 </td>
-   <td style="text-align:left;"> 39.6/100 </td>
+   <td style="text-align:left;"> 95.2/98.9 </td>
+   <td style="text-align:left;"> 96.2/100 </td>
+   <td style="text-align:left;"> 95.2/98.9 </td>
+   <td style="text-align:left;"> 50/100 </td>
    <td style="text-align:left;"> 100/100 </td>
-   <td style="text-align:left;"> 58.2/97.4 </td>
-   <td style="text-align:left;"> 55.3/92.5 </td>
+   <td style="text-align:left;"> 58.3/100 </td>
+   <td style="text-align:left;"> 55.4/95 </td>
   </tr>
 </tbody>
 </table>
 <table class="table table-striped" style="width: auto !important; float: left; margin-right: 10px;">
-<caption>Dragonstooth core and node availability at 07 February, 2021 -- 10:20:37AM</caption>
+<caption>Dragonstooth core and node availability at 07 February, 2021 -- 10:30:37AM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
@@ -139,32 +139,32 @@
   </tr>
   <tr>
    <td style="text-align:left;"> cores available </td>
-   <td style="text-align:left;"> 696 </td>
-   <td style="text-align:left;"> 576 </td>
-   <td style="text-align:left;"> 696 </td>
+   <td style="text-align:left;"> 529 </td>
+   <td style="text-align:left;"> 409 </td>
+   <td style="text-align:left;"> 529 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> 1/2 nodes available </td>
-   <td style="text-align:left;"> 30 </td>
-   <td style="text-align:left;"> 25 </td>
-   <td style="text-align:left;"> 30 </td>
+   <td style="text-align:left;"> 23 </td>
+   <td style="text-align:left;"> 18 </td>
+   <td style="text-align:left;"> 23 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> full nodes available </td>
-   <td style="text-align:left;"> 21 </td>
-   <td style="text-align:left;"> 16 </td>
-   <td style="text-align:left;"> 21 </td>
+   <td style="text-align:left;"> 19 </td>
+   <td style="text-align:left;"> 14 </td>
+   <td style="text-align:left;"> 19 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> %utilization cores/nodes </td>
-   <td style="text-align:left;"> 38.3/55.3 </td>
-   <td style="text-align:left;"> 42.9/61.9 </td>
-   <td style="text-align:left;"> 38.3/55.3 </td>
+   <td style="text-align:left;"> 53.1/59.6 </td>
+   <td style="text-align:left;"> 59.4/66.7 </td>
+   <td style="text-align:left;"> 53.1/59.6 </td>
   </tr>
 </tbody>
 </table>
 <table class="table table-striped" style="width: auto !important; float: right; margin-left: 10px;">
-<caption>Huckleberry core and node availability at 07 February, 2021 -- 10:20:37AM</caption>
+<caption>Huckleberry core and node availability at 07 February, 2021 -- 10:30:37AM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
