@@ -4,7 +4,7 @@ dt005 CPUAlloc= 0 CPUTot= 24
 dt006 CPUAlloc= 0 CPUTot= 24 
 dt007 CPUAlloc= 1 CPUTot= 24 
 dt008 CPUAlloc= 4 CPUTot= 24 
-dt009 CPUAlloc= 0 CPUTot= 24 
+dt009 CPUAlloc= 24 CPUTot= 24 
 dt010 CPUAlloc= 24 CPUTot= 24 
 dt011 CPUAlloc= 4 CPUTot= 24 
 dt012 CPUAlloc= 0 CPUTot= 24 
