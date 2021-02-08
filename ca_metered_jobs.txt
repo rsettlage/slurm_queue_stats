@@ -23,3 +23,15 @@
 567600 (QOSMaxJobsPerUserLimit) cascades
 567601 (QOSMaxJobsPerUserLimit) cascades
 567602 (QOSMaxJobsPerUserLimit) cascades
+568601 (QOSMaxJobsPerUserLimit) cascades
+568602 (QOSMaxJobsPerUserLimit) cascades
+568603 (QOSMaxJobsPerUserLimit) cascades
+568604 (QOSMaxJobsPerUserLimit) cascades
+568605 (QOSMaxJobsPerUserLimit) cascades
+568606 (QOSMaxJobsPerUserLimit) cascades
+568607 (QOSMaxJobsPerUserLimit) cascades
+568608 (QOSMaxJobsPerUserLimit) cascades
+568609 (QOSMaxJobsPerUserLimit) cascades
+568610 (QOSMaxJobsPerUserLimit) cascades
+568611 (QOSMaxJobsPerUserLimit) cascades
+568612 (QOSMaxJobsPerUserLimit) cascades
