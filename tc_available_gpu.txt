@@ -44,7 +44,7 @@ tc043 CPUAlloc= 128 CPUTot= 128
 tc044 CPUAlloc= 128 CPUTot= 128 
 tc045 CPUAlloc= 128 CPUTot= 128 
 tc046 CPUAlloc= 128 CPUTot= 128 
-tc047 CPUAlloc= 32 CPUTot= 128 
+tc047 CPUAlloc= 91 CPUTot= 128 
 tc048 CPUAlloc= 128 CPUTot= 128 
 tc049 CPUAlloc= 128 CPUTot= 128 
 tc050 CPUAlloc= 0 CPUTot= 128 
