@@ -120,8 +120,8 @@ tc119 CPUAlloc= 128 CPUTot= 128
 tc120 CPUAlloc= 128 CPUTot= 128 
 tc121 CPUAlloc= 128 CPUTot= 128 
 tc122 CPUAlloc= 128 CPUTot= 128 
-tc123 CPUAlloc= 0 CPUTot= 128 
-tc124 CPUAlloc= 0 CPUTot= 128 
+tc123 CPUAlloc= 128 CPUTot= 128 
+tc124 CPUAlloc= 128 CPUTot= 128 
 tc126 CPUAlloc= 0 CPUTot= 128 
 tc127 CPUAlloc= 0 CPUTot= 128 
 tc128 CPUAlloc= 128 CPUTot= 128 
