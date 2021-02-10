@@ -7,3 +7,12 @@
 570244 (QOSMaxJobsPerUserLimit) cascades
 570245 (QOSMaxJobsPerUserLimit) cascades
 570401 (QOSMaxJobsPerUserLimit) cascades
+570441 (QOSMaxJobsPerUserLimit) cascades
+570442 (QOSMaxJobsPerUserLimit) cascades
+570443 (QOSMaxJobsPerUserLimit) cascades
+570444 (QOSMaxJobsPerUserLimit) cascades
+570445 (QOSMaxJobsPerUserLimit) cascades
+570446 (QOSMaxJobsPerUserLimit) cascades
+570447 (QOSMaxJobsPerUserLimit) cascades
+570448 (QOSMaxJobsPerUserLimit) cascades
+570449 (QOSMaxJobsPerUserLimit) cascades
