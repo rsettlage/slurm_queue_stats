@@ -9,7 +9,7 @@ ca008 CPUAlloc= 32 CPUTot= 32
 ca009 CPUAlloc= 32 CPUTot= 32 
 ca010 CPUAlloc= 32 CPUTot= 32 
 ca011 CPUAlloc= 32 CPUTot= 32 
-ca012 CPUAlloc= 15 CPUTot= 32 
+ca012 CPUAlloc= 31 CPUTot= 32 
 ca013 CPUAlloc= 32 CPUTot= 32 
 ca014 CPUAlloc= 0 CPUTot= 32 
 ca015 CPUAlloc= 0 CPUTot= 32 
