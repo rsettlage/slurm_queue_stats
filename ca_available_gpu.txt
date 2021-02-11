@@ -100,7 +100,7 @@ ca100 CPUAlloc= 32 CPUTot= 32
 ca101 CPUAlloc= 32 CPUTot= 32 
 ca102 CPUAlloc= 32 CPUTot= 32 
 ca103 CPUAlloc= 32 CPUTot= 32 
-ca104 CPUAlloc= 32 CPUTot= 32 
+ca104 CPUAlloc= 16 CPUTot= 32 
 ca105 CPUAlloc= 32 CPUTot= 32 
 ca106 CPUAlloc= 32 CPUTot= 32 
 ca107 CPUAlloc= 32 CPUTot= 32 
