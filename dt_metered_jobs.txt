@@ -1,7 +1,6 @@
+649612 (BeginTime) dragonstooth
 649611 (BeginTime) dragonstooth
 649410 (BeginTime) dragonstooth
 649409 (BeginTime) dragonstooth
 649008 (BeginTime) dragonstooth
 649006 (BeginTime) dragonstooth
-649003 (BeginTime) dragonstooth
-648827 (BeginTime) dragonstooth
