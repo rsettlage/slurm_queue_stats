@@ -4,11 +4,11 @@ ca003 CPUAlloc= 32 CPUTot= 32 available/allocated gres/gpu= 4 available/allocate
 ca004 CPUAlloc= 0 CPUTot= 32 available/allocated gres/gpu= 4 available/allocated gres/gpu= 0
 ca005 CPUAlloc= 0 CPUTot= 32 available/allocated gres/gpu= 4 available/allocated gres/gpu= 0
 ca006 CPUAlloc= 16 CPUTot= 32 available/allocated gres/gpu= 4 available/allocated gres/gpu= 0
-ca007 CPUAlloc= 29 CPUTot= 32 
-ca008 CPUAlloc= 19 CPUTot= 32 
+ca007 CPUAlloc= 30 CPUTot= 32 
+ca008 CPUAlloc= 3 CPUTot= 32 
 ca009 CPUAlloc= 32 CPUTot= 32 
 ca010 CPUAlloc= 32 CPUTot= 32 
-ca011 CPUAlloc= 32 CPUTot= 32 
+ca011 CPUAlloc= 0 CPUTot= 32 
 ca012 CPUAlloc= 1 CPUTot= 32 
 ca013 CPUAlloc= 32 CPUTot= 32 
 ca014 CPUAlloc= 0 CPUTot= 32 
@@ -17,7 +17,7 @@ ca016 CPUAlloc= 32 CPUTot= 32
 ca017 CPUAlloc= 26 CPUTot= 32 
 ca018 CPUAlloc= 32 CPUTot= 32 
 ca019 CPUAlloc= 32 CPUTot= 32 
-ca020 CPUAlloc= 32 CPUTot= 32 
+ca020 CPUAlloc= 0 CPUTot= 32 
 ca021 CPUAlloc= 32 CPUTot= 32 
 ca022 CPUAlloc= 17 CPUTot= 32 
 ca023 CPUAlloc= 32 CPUTot= 32 
@@ -58,7 +58,7 @@ ca058 CPUAlloc= 32 CPUTot= 32
 ca059 CPUAlloc= 32 CPUTot= 32 
 ca060 CPUAlloc= 1 CPUTot= 32 
 ca061 CPUAlloc= 32 CPUTot= 32 
-ca062 CPUAlloc= 32 CPUTot= 32 
+ca062 CPUAlloc= 16 CPUTot= 32 
 ca063 CPUAlloc= 32 CPUTot= 32 
 ca064 CPUAlloc= 32 CPUTot= 32 
 ca065 CPUAlloc= 24 CPUTot= 32 
@@ -90,7 +90,7 @@ ca091 CPUAlloc= 32 CPUTot= 32
 ca092 CPUAlloc= 32 CPUTot= 32 
 ca093 CPUAlloc= 24 CPUTot= 32 
 ca094 CPUAlloc= 32 CPUTot= 32 
-ca095 CPUAlloc= 32 CPUTot= 32 
+ca095 CPUAlloc= 16 CPUTot= 32 
 ca096 CPUAlloc= 24 CPUTot= 32 
 ca097 CPUAlloc= 1 CPUTot= 32 
 ca098 CPUAlloc= 32 CPUTot= 32 
@@ -99,9 +99,9 @@ ca100 CPUAlloc= 32 CPUTot= 32
 ca101 CPUAlloc= 32 CPUTot= 32 
 ca102 CPUAlloc= 1 CPUTot= 32 
 ca103 CPUAlloc= 32 CPUTot= 32 
-ca104 CPUAlloc= 32 CPUTot= 32 
-ca105 CPUAlloc= 32 CPUTot= 32 
-ca106 CPUAlloc= 32 CPUTot= 32 
+ca104 CPUAlloc= 0 CPUTot= 32 
+ca105 CPUAlloc= 0 CPUTot= 32 
+ca106 CPUAlloc= 0 CPUTot= 32 
 ca107 CPUAlloc= 32 CPUTot= 32 
 ca108 CPUAlloc= 32 CPUTot= 32 
 ca109 CPUAlloc= 32 CPUTot= 32 
