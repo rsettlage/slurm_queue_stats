@@ -93,7 +93,7 @@ ca094 CPUAlloc= 24 CPUTot= 32
 ca095 CPUAlloc= 16 CPUTot= 32 
 ca096 CPUAlloc= 24 CPUTot= 32 
 ca097 CPUAlloc= 1 CPUTot= 32 
-ca098 CPUAlloc= 24 CPUTot= 32 
+ca098 CPUAlloc= 32 CPUTot= 32 
 ca099 CPUAlloc= 32 CPUTot= 32 
 ca100 CPUAlloc= 16 CPUTot= 32 
 ca101 CPUAlloc= 32 CPUTot= 32 
