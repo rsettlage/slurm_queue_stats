@@ -1,3 +1,4 @@
+654680 (BeginTime) dragonstooth
 654465 (BeginTime) dragonstooth
 654466 (BeginTime) dragonstooth
 654467 (BeginTime) dragonstooth
@@ -16,4 +17,7 @@
 654453 (BeginTime) dragonstooth
 654454 (BeginTime) dragonstooth
 654455 (BeginTime) dragonstooth
-654450 (BeginTime) dragonstooth
+654676 (QOSMaxCpuPerUserLimit) dragonstooth
+654677 (QOSMaxCpuPerUserLimit) dragonstooth
+654678 (QOSMaxCpuPerUserLimit) dragonstooth
+654679 (QOSMaxCpuPerUserLimit) dragonstooth
