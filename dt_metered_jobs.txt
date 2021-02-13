@@ -1,10 +1,6 @@
+668091 (BeginTime) dragonstooth
 667888 (BeginTime) dragonstooth
 667881 (BeginTime) dragonstooth
 667678 (BeginTime) dragonstooth
 667477 (BeginTime) dragonstooth
 667476 (BeginTime) dragonstooth
-667275 (BeginTime) dragonstooth
-667735 (BeginTime) dragonstooth
-667738 (BeginTime) dragonstooth
-667741 (BeginTime) dragonstooth
-667752 (BeginTime) dragonstooth
