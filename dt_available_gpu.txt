@@ -32,7 +32,7 @@ dt033 CPUAlloc= 24 CPUTot= 24
 dt034 CPUAlloc= 24 CPUTot= 24 
 dt035 CPUAlloc= 24 CPUTot= 24 
 dt036 CPUAlloc= 24 CPUTot= 24 
-dt037 CPUAlloc= 22 CPUTot= 24 
+dt037 CPUAlloc= 24 CPUTot= 24 
 dt038 CPUAlloc= 24 CPUTot= 24 
 dt039 CPUAlloc= 24 CPUTot= 24 
 dt040 CPUAlloc= 24 CPUTot= 24 
