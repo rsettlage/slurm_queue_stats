@@ -6,9 +6,9 @@ tc005 CPUAlloc= 32 CPUTot= 128
 tc006 CPUAlloc= 52 CPUTot= 128 
 tc007 CPUAlloc= 32 CPUTot= 128 
 tc008 CPUAlloc= 128 CPUTot= 128 
-tc009 CPUAlloc= 112 CPUTot= 128 
-tc010 CPUAlloc= 124 CPUTot= 128 
-tc011 CPUAlloc= 112 CPUTot= 128 
+tc009 CPUAlloc= 20 CPUTot= 128 
+tc010 CPUAlloc= 32 CPUTot= 128 
+tc011 CPUAlloc= 52 CPUTot= 128 
 tc012 CPUAlloc= 88 CPUTot= 128 
 tc013 CPUAlloc= 60 CPUTot= 128 
 tc014 CPUAlloc= 0 CPUTot= 128 
