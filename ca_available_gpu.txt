@@ -44,7 +44,7 @@ ca044 CPUAlloc= 1 CPUTot= 32
 ca045 CPUAlloc= 1 CPUTot= 32 
 ca046 CPUAlloc= 32 CPUTot= 32 
 ca047 CPUAlloc= 32 CPUTot= 32 
-ca048 CPUAlloc= 32 CPUTot= 32 
+ca048 CPUAlloc= 16 CPUTot= 32 
 ca049 CPUAlloc= 32 CPUTot= 32 
 ca050 CPUAlloc= 32 CPUTot= 32 
 ca051 CPUAlloc= 32 CPUTot= 32 
