@@ -4,8 +4,8 @@ ca003 CPUAlloc= 32 CPUTot= 32 available/allocated gres/gpu= 4 available/allocate
 ca004 CPUAlloc= 0 CPUTot= 32 available/allocated gres/gpu= 4 available/allocated gres/gpu= 0
 ca005 CPUAlloc= 0 CPUTot= 32 available/allocated gres/gpu= 4 available/allocated gres/gpu= 0
 ca006 CPUAlloc= 32 CPUTot= 32 available/allocated gres/gpu= 4 available/allocated gres/gpu= 0
-ca007 CPUAlloc= 16 CPUTot= 32 
-ca008 CPUAlloc= 32 CPUTot= 32 
+ca007 CPUAlloc= 19 CPUTot= 32 
+ca008 CPUAlloc= 0 CPUTot= 32 
 ca009 CPUAlloc= 32 CPUTot= 32 
 ca010 CPUAlloc= 32 CPUTot= 32 
 ca011 CPUAlloc= 32 CPUTot= 32 
@@ -13,8 +13,8 @@ ca012 CPUAlloc= 1 CPUTot= 32
 ca013 CPUAlloc= 0 CPUTot= 32 
 ca014 CPUAlloc= 0 CPUTot= 32 
 ca015 CPUAlloc= 0 CPUTot= 32 
-ca016 CPUAlloc= 30 CPUTot= 32 
-ca017 CPUAlloc= 24 CPUTot= 32 
+ca016 CPUAlloc= 32 CPUTot= 32 
+ca017 CPUAlloc= 32 CPUTot= 32 
 ca018 CPUAlloc= 32 CPUTot= 32 
 ca019 CPUAlloc= 0 CPUTot= 32 
 ca020 CPUAlloc= 32 CPUTot= 32 
@@ -37,7 +37,7 @@ ca037 CPUAlloc= 0 CPUTot= 32
 ca038 CPUAlloc= 32 CPUTot= 32 
 ca039 CPUAlloc= 32 CPUTot= 32 
 ca040 CPUAlloc= 32 CPUTot= 32 
-ca041 CPUAlloc= 23 CPUTot= 32 
+ca041 CPUAlloc= 32 CPUTot= 32 
 ca042 CPUAlloc= 32 CPUTot= 32 
 ca043 CPUAlloc= 30 CPUTot= 32 
 ca044 CPUAlloc= 1 CPUTot= 32 
@@ -49,7 +49,7 @@ ca049 CPUAlloc= 0 CPUTot= 32
 ca050 CPUAlloc= 0 CPUTot= 32 
 ca051 CPUAlloc= 0 CPUTot= 32 
 ca052 CPUAlloc= 32 CPUTot= 32 
-ca053 CPUAlloc= 1 CPUTot= 32 
+ca053 CPUAlloc= 2 CPUTot= 32 
 ca054 CPUAlloc= 32 CPUTot= 32 
 ca055 CPUAlloc= 0 CPUTot= 32 
 ca056 CPUAlloc= 0 CPUTot= 32 
@@ -120,12 +120,12 @@ ca121 CPUAlloc= 32 CPUTot= 32
 ca122 CPUAlloc= 32 CPUTot= 32 
 ca123 CPUAlloc= 0 CPUTot= 32 
 ca124 CPUAlloc= 32 CPUTot= 32 
-ca125 CPUAlloc= 1 CPUTot= 32 
+ca125 CPUAlloc= 2 CPUTot= 32 
 ca126 CPUAlloc= 32 CPUTot= 32 
 ca127 CPUAlloc= 32 CPUTot= 32 
 ca128 CPUAlloc= 0 CPUTot= 32 
 ca129 CPUAlloc= 0 CPUTot= 32 
-ca131 CPUAlloc= 32 CPUTot= 32 
+ca131 CPUAlloc= 0 CPUTot= 32 
 ca132 CPUAlloc= 32 CPUTot= 32 
 ca133 CPUAlloc= 0 CPUTot= 32 
 ca134 CPUAlloc= 0 CPUTot= 32 
