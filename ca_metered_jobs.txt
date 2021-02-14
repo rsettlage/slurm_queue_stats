@@ -19,13 +19,6 @@
 570385 (QOSMaxJobsPerUserLimit) cascades
 570386 (QOSMaxJobsPerUserLimit) cascades
 570401 (QOSMaxJobsPerUserLimit) cascades
-571990 (QOSMaxJobsPerUserLimit) cascades
-571991 (QOSMaxJobsPerUserLimit) cascades
-571992 (QOSMaxJobsPerUserLimit) cascades
-571993 (QOSMaxJobsPerUserLimit) cascades
-571994 (QOSMaxJobsPerUserLimit) cascades
-571995 (QOSMaxJobsPerUserLimit) cascades
-571996 (QOSMaxJobsPerUserLimit) cascades
 571997 (QOSMaxJobsPerUserLimit) cascades
 571998 (QOSMaxJobsPerUserLimit) cascades
 571999 (QOSMaxJobsPerUserLimit) cascades
