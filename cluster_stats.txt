@@ -2,7 +2,7 @@
 <img src='https://raw.githubusercontent.com/rsettlage/slurm_queue_stats/master/all_data_combined_month.jpg' alt='month' width='450'/>
 <img src='https://raw.githubusercontent.com/rsettlage/slurm_queue_stats/master/all_data_combined_year.jpg' alt='year' width='450'/>
 <table class="table table-striped" style="width: auto !important; ">
-<caption>Cascades core and node availability at 14 February, 2021 -- 08:40:36PM</caption>
+<caption>Cascades core and node availability at 14 February, 2021 -- 08:50:38PM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
@@ -58,9 +58,9 @@
   </tr>
   <tr>
    <td style="text-align:left;"> cores available </td>
-   <td style="text-align:left;"> 669 </td>
-   <td style="text-align:left;"> 605 </td>
-   <td style="text-align:left;"> 669 </td>
+   <td style="text-align:left;"> 668 </td>
+   <td style="text-align:left;"> 604 </td>
+   <td style="text-align:left;"> 668 </td>
    <td style="text-align:left;"> 87 </td>
    <td style="text-align:left;"> 0 </td>
    <td style="text-align:left;"> 252 </td>
@@ -99,7 +99,7 @@
   <tr>
    <td style="text-align:left;"> %utilization cores/nodes </td>
    <td style="text-align:left;"> 88.1/98.3 </td>
-   <td style="text-align:left;"> 89.1/99.4 </td>
+   <td style="text-align:left;"> 89.2/99.4 </td>
    <td style="text-align:left;"> 88.1/98.3 </td>
    <td style="text-align:left;"> 39.6/100 </td>
    <td style="text-align:left;"> 100/100 </td>
@@ -109,7 +109,7 @@
 </tbody>
 </table>
 <table class="table table-striped" style="width: auto !important; float: left; margin-right: 10px;">
-<caption>Dragonstooth core and node availability at 14 February, 2021 -- 08:40:36PM</caption>
+<caption>Dragonstooth core and node availability at 14 February, 2021 -- 08:50:38PM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
@@ -164,7 +164,7 @@
 </tbody>
 </table>
 <table class="table table-striped" style="width: auto !important; float: right; margin-left: 10px;">
-<caption>Huckleberry core and node availability at 14 February, 2021 -- 08:40:36PM</caption>
+<caption>Huckleberry core and node availability at 14 February, 2021 -- 08:50:38PM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
@@ -190,11 +190,11 @@
   </tr>
   <tr>
    <td style="text-align:left;"> cores available </td>
-   <td style="text-align:left;"> 218 </td>
+   <td style="text-align:left;"> 219 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> gpus available </td>
-   <td style="text-align:left;"> 42 </td>
+   <td style="text-align:left;"> 43 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> 1/2 nodes available </td>
@@ -206,7 +206,7 @@
   </tr>
   <tr>
    <td style="text-align:left;"> %utilization cores/nodes </td>
-   <td style="text-align:left;"> 0.9/9.1 </td>
+   <td style="text-align:left;"> 0.5/9.1 </td>
   </tr>
 </tbody>
 </table>
