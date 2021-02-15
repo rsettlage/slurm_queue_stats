@@ -59,10 +59,10 @@ tc059 CPUAlloc= 0 CPUTot= 128
 tc060 CPUAlloc= 0 CPUTot= 128 
 tc061 CPUAlloc= 0 CPUTot= 128 
 tc062 CPUAlloc= 0 CPUTot= 128 
-tc063 CPUAlloc= 125 CPUTot= 128 
-tc064 CPUAlloc= 125 CPUTot= 128 
-tc065 CPUAlloc= 125 CPUTot= 128 
-tc066 CPUAlloc= 125 CPUTot= 128 
+tc063 CPUAlloc= 0 CPUTot= 128 
+tc064 CPUAlloc= 0 CPUTot= 128 
+tc065 CPUAlloc= 0 CPUTot= 128 
+tc066 CPUAlloc= 0 CPUTot= 128 
 tc067 CPUAlloc= 0 CPUTot= 128 
 tc068 CPUAlloc= 0 CPUTot= 128 
 tc069 CPUAlloc= 0 CPUTot= 128 
