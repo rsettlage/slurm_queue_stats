@@ -22,7 +22,7 @@ ca021 CPUAlloc= 32 CPUTot= 32
 ca022 CPUAlloc= 32 CPUTot= 32 
 ca023 CPUAlloc= 32 CPUTot= 32 
 ca024 CPUAlloc= 32 CPUTot= 32 
-ca025 CPUAlloc= 28 CPUTot= 32 
+ca025 CPUAlloc= 31 CPUTot= 32 
 ca026 CPUAlloc= 32 CPUTot= 32 
 ca027 CPUAlloc= 32 CPUTot= 32 
 ca028 CPUAlloc= 32 CPUTot= 32 
