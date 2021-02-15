@@ -12,7 +12,7 @@ dt013 CPUAlloc= 24 CPUTot= 24
 dt014 CPUAlloc= 24 CPUTot= 24 
 dt015 CPUAlloc= 24 CPUTot= 24 
 dt016 CPUAlloc= 0 CPUTot= 24 
-dt017 CPUAlloc= 24 CPUTot= 24 
+dt017 CPUAlloc= 0 CPUTot= 24 
 dt018 CPUAlloc= 24 CPUTot= 24 
 dt019 CPUAlloc= 1 CPUTot= 24 
 dt020 CPUAlloc= 0 CPUTot= 24 
