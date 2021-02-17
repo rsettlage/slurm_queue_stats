@@ -25,15 +25,6 @@
 577772 (QOSMaxJobsPerUserLimit) cascades
 577773 (QOSMaxJobsPerUserLimit) cascades
 577774 (QOSMaxJobsPerUserLimit) cascades
-577834 (QOSMaxJobsPerUserLimit) cascades
-577835 (QOSMaxJobsPerUserLimit) cascades
-577836 (QOSMaxJobsPerUserLimit) cascades
-577837 (QOSMaxJobsPerUserLimit) cascades
-577838 (QOSMaxJobsPerUserLimit) cascades
-577839 (QOSMaxJobsPerUserLimit) cascades
-577840 (QOSMaxJobsPerUserLimit) cascades
-577841 (QOSMaxJobsPerUserLimit) cascades
-577842 (QOSMaxJobsPerUserLimit) cascades
 577843 (QOSMaxJobsPerUserLimit) cascades
 577844 (QOSMaxJobsPerUserLimit) cascades
 577845 (QOSMaxJobsPerUserLimit) cascades
