@@ -311,7 +311,7 @@ tc-hm007 CPUAlloc= 0 CPUTot= 128
 tc-intel001 CPUAlloc= 96 CPUTot= 96 
 tc-intel002 CPUAlloc= 0 CPUTot= 96 
 tc-intel003 CPUAlloc= 96 CPUTot= 96 
-tc-intel004 CPUAlloc= 96 CPUTot= 96 
+tc-intel004 CPUAlloc= 0 CPUTot= 96 
 tc-intel005 CPUAlloc= 96 CPUTot= 96 
 tc-intel006 CPUAlloc= 0 CPUTot= 96 
 tc-intel007 CPUAlloc= 0 CPUTot= 96 
