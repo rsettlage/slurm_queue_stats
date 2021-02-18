@@ -2,7 +2,7 @@
 <img src='https://raw.githubusercontent.com/rsettlage/slurm_queue_stats/master/all_data_combined_month.jpg' alt='month' width='450'/>
 <img src='https://raw.githubusercontent.com/rsettlage/slurm_queue_stats/master/all_data_combined_year.jpg' alt='year' width='450'/>
 <table class="table table-striped" style="width: auto !important; ">
-<caption>Cascades core and node availability at 18 February, 2021 -- 10:30:35AM</caption>
+<caption>Cascades core and node availability at 18 February, 2021 -- 10:40:36AM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
@@ -58,13 +58,13 @@
   </tr>
   <tr>
    <td style="text-align:left;"> cores available </td>
-   <td style="text-align:left;"> 598 </td>
-   <td style="text-align:left;"> 546 </td>
-   <td style="text-align:left;"> 598 </td>
+   <td style="text-align:left;"> 592 </td>
+   <td style="text-align:left;"> 544 </td>
+   <td style="text-align:left;"> 592 </td>
    <td style="text-align:left;"> 23 </td>
    <td style="text-align:left;"> 0 </td>
-   <td style="text-align:left;"> 285 </td>
-   <td style="text-align:left;"> 333 </td>
+   <td style="text-align:left;"> 286 </td>
+   <td style="text-align:left;"> 334 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> gpus available </td>
@@ -98,18 +98,18 @@
   </tr>
   <tr>
    <td style="text-align:left;"> %utilization cores/nodes </td>
-   <td style="text-align:left;"> 89.4/97.2 </td>
-   <td style="text-align:left;"> 90.2/97.7 </td>
-   <td style="text-align:left;"> 89.4/97.2 </td>
+   <td style="text-align:left;"> 89.5/97.2 </td>
+   <td style="text-align:left;"> 90.3/97.7 </td>
+   <td style="text-align:left;"> 89.5/97.2 </td>
    <td style="text-align:left;"> 84/100 </td>
    <td style="text-align:left;"> 100/100 </td>
-   <td style="text-align:left;"> 68.8/97.4 </td>
-   <td style="text-align:left;"> 65.3/92.5 </td>
+   <td style="text-align:left;"> 68.6/97.4 </td>
+   <td style="text-align:left;"> 65.2/92.5 </td>
   </tr>
 </tbody>
 </table>
 <table class="table table-striped" style="width: auto !important; float: left; margin-right: 10px;">
-<caption>Dragonstooth core and node availability at 18 February, 2021 -- 10:30:35AM</caption>
+<caption>Dragonstooth core and node availability at 18 February, 2021 -- 10:40:36AM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
@@ -139,32 +139,32 @@
   </tr>
   <tr>
    <td style="text-align:left;"> cores available </td>
-   <td style="text-align:left;"> 330 </td>
-   <td style="text-align:left;"> 210 </td>
-   <td style="text-align:left;"> 330 </td>
+   <td style="text-align:left;"> 354 </td>
+   <td style="text-align:left;"> 234 </td>
+   <td style="text-align:left;"> 354 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> 1/2 nodes available </td>
-   <td style="text-align:left;"> 14 </td>
-   <td style="text-align:left;"> 9 </td>
-   <td style="text-align:left;"> 14 </td>
+   <td style="text-align:left;"> 15 </td>
+   <td style="text-align:left;"> 10 </td>
+   <td style="text-align:left;"> 15 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> full nodes available </td>
-   <td style="text-align:left;"> 11 </td>
-   <td style="text-align:left;"> 6 </td>
-   <td style="text-align:left;"> 11 </td>
+   <td style="text-align:left;"> 12 </td>
+   <td style="text-align:left;"> 7 </td>
+   <td style="text-align:left;"> 12 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> %utilization cores/nodes </td>
-   <td style="text-align:left;"> 70.7/76.6 </td>
-   <td style="text-align:left;"> 79.2/85.7 </td>
-   <td style="text-align:left;"> 70.7/76.6 </td>
+   <td style="text-align:left;"> 68.6/74.5 </td>
+   <td style="text-align:left;"> 76.8/83.3 </td>
+   <td style="text-align:left;"> 68.6/74.5 </td>
   </tr>
 </tbody>
 </table>
 <table class="table table-striped" style="width: auto !important; float: right; margin-left: 10px;">
-<caption>Huckleberry core and node availability at 18 February, 2021 -- 10:30:35AM</caption>
+<caption>Huckleberry core and node availability at 18 February, 2021 -- 10:40:36AM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
