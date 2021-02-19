@@ -1,4 +1,4 @@
 PARTITION      AVAIL  TIMELIMIT   NODES(A/I/O/T)  NODELIST
-normal_q*         up 3-00:00:00        3/10/1/14  hu[001-014]
-ece_priority_q    up 6-00:00:00        3/10/1/14  hu[001-014]
-large_q           up 1-00:00:00        3/10/1/14  hu[001-014]
+normal_q*         up 3-00:00:00        1/12/1/14  hu[001-014]
+ece_priority_q    up 6-00:00:00        1/12/1/14  hu[001-014]
+large_q           up 1-00:00:00        1/12/1/14  hu[001-014]
