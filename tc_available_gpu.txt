@@ -15,7 +15,7 @@ tc014 CPUAlloc= 128 CPUTot= 128
 tc015 CPUAlloc= 128 CPUTot= 128 
 tc016 CPUAlloc= 128 CPUTot= 128 
 tc017 CPUAlloc= 128 CPUTot= 128 
-tc018 CPUAlloc= 2 CPUTot= 128 
+tc018 CPUAlloc= 120 CPUTot= 128 
 tc019 CPUAlloc= 128 CPUTot= 128 
 tc020 CPUAlloc= 0 CPUTot= 128 
 tc021 CPUAlloc= 0 CPUTot= 128 
