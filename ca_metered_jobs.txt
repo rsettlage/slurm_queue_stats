@@ -132,3 +132,6 @@
 580056 (QOSMaxCpuPerUserLimit) cascades
 580057 (QOSMaxCpuPerUserLimit) cascades
 580058 (QOSMaxCpuPerUserLimit) cascades
+580076 (QOSMaxCpuPerUserLimit) cascades
+580077 (QOSMaxCpuPerUserLimit) cascades
+580078 (QOSMaxCpuPerUserLimit) cascades
