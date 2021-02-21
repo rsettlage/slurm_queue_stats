@@ -53,7 +53,7 @@ ca052 CPUAlloc= 32 CPUTot= 32
 ca053 CPUAlloc= 32 CPUTot= 32 
 ca054 CPUAlloc= 32 CPUTot= 32 
 ca055 CPUAlloc= 32 CPUTot= 32 
-ca056 CPUAlloc= 0 CPUTot= 32 
+ca056 CPUAlloc= 32 CPUTot= 32 
 ca057 CPUAlloc= 4 CPUTot= 32 
 ca058 CPUAlloc= 32 CPUTot= 32 
 ca059 CPUAlloc= 32 CPUTot= 32 
