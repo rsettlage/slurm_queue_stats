@@ -16,7 +16,7 @@ ca015 CPUAlloc= 0 CPUTot= 32
 ca016 CPUAlloc= 1 CPUTot= 32 
 ca017 CPUAlloc= 16 CPUTot= 32 
 ca018 CPUAlloc= 32 CPUTot= 32 
-ca019 CPUAlloc= 28 CPUTot= 32 
+ca019 CPUAlloc= 4 CPUTot= 32 
 ca020 CPUAlloc= 32 CPUTot= 32 
 ca021 CPUAlloc= 32 CPUTot= 32 
 ca022 CPUAlloc= 32 CPUTot= 32 
