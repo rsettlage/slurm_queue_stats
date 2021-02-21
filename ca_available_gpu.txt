@@ -9,7 +9,7 @@ ca008 CPUAlloc= 15 CPUTot= 32
 ca009 CPUAlloc= 32 CPUTot= 32 
 ca010 CPUAlloc= 32 CPUTot= 32 
 ca011 CPUAlloc= 32 CPUTot= 32 
-ca012 CPUAlloc= 32 CPUTot= 32 
+ca012 CPUAlloc= 0 CPUTot= 32 
 ca013 CPUAlloc= 32 CPUTot= 32 
 ca014 CPUAlloc= 0 CPUTot= 32 
 ca015 CPUAlloc= 0 CPUTot= 32 
@@ -57,8 +57,8 @@ ca056 CPUAlloc= 0 CPUTot= 32
 ca057 CPUAlloc= 4 CPUTot= 32 
 ca058 CPUAlloc= 32 CPUTot= 32 
 ca059 CPUAlloc= 32 CPUTot= 32 
-ca060 CPUAlloc= 32 CPUTot= 32 
-ca061 CPUAlloc= 32 CPUTot= 32 
+ca060 CPUAlloc= 0 CPUTot= 32 
+ca061 CPUAlloc= 0 CPUTot= 32 
 ca062 CPUAlloc= 0 CPUTot= 32 
 ca063 CPUAlloc= 0 CPUTot= 32 
 ca064 CPUAlloc= 0 CPUTot= 32 
@@ -71,8 +71,8 @@ ca070 CPUAlloc= 2 CPUTot= 32
 ca071 CPUAlloc= 32 CPUTot= 32 
 ca072 CPUAlloc= 9 CPUTot= 32 
 ca073 CPUAlloc= 1 CPUTot= 32 
-ca074 CPUAlloc= 0 CPUTot= 32 
-ca075 CPUAlloc= 0 CPUTot= 32 
+ca074 CPUAlloc= 32 CPUTot= 32 
+ca075 CPUAlloc= 32 CPUTot= 32 
 ca076 CPUAlloc= 0 CPUTot= 32 
 ca077 CPUAlloc= 0 CPUTot= 32 
 ca078 CPUAlloc= 0 CPUTot= 32 
@@ -211,7 +211,7 @@ ca212 CPUAlloc= 24 CPUTot= 24 available/allocated gres/gpu= 2 available/allocate
 ca213 CPUAlloc= 1 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 1 
 ca214 CPUAlloc= 2 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
 ca215 CPUAlloc= 24 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
-ca216 CPUAlloc= 5 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
+ca216 CPUAlloc= 2 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
 ca217 CPUAlloc= 24 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 1 
 ca218 CPUAlloc= 24 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 2 
 ca219 CPUAlloc= 15 CPUTot= 24 available/allocated gres/gpu= 2 available/allocated gres/gpu= 0
