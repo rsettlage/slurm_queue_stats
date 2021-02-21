@@ -1,9 +1,7 @@
+579732 (BeginTime) cascades
 297914 (QOSMaxCpuMinutesPerJobLimit) cascades
 576888 (QOSMaxJobsPerUserLimit) cascades
 579347 (QOSMaxJobsPerUserLimit) cascades
-579764 (QOSMaxCpuPerUserLimit) cascades
-579765 (QOSMaxCpuPerUserLimit) cascades
-579766 (QOSMaxCpuPerUserLimit) cascades
 579767 (QOSMaxCpuPerUserLimit) cascades
 579768 (QOSMaxCpuPerUserLimit) cascades
 579769 (QOSMaxCpuPerUserLimit) cascades
