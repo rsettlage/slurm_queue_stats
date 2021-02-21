@@ -1,4 +1,4 @@
        JobID              Submit               Start            Eligible  Partition          Reservation AllocNodes  AllocCPUS ReqNodes  ReqCPUS      ReqGRES  Timelimit    Elapsed  huckleberry
 ------------ ------------------- ------------------- ------------------- ---------- -------------------- ---------- ---------- -------- -------- ------------ ---------- ----------  huckleberry
 69211        2021-02-20T09:47:24 2021-02-20T09:47:25 2021-02-20T09:47:24   normal_q                               2         40        2       20        gpu:8 2-00:00:00   01:22:24  huckleberry
-69212        2021-02-20T13:10:35 2021-02-20T13:10:36 2021-02-20T13:10:35   normal_q                               2         40        2       20        gpu:8 2-00:00:00   08:39:45  huckleberry
+69212        2021-02-20T13:10:35 2021-02-20T13:10:36 2021-02-20T13:10:35   normal_q                               2         40        2       20        gpu:8 2-00:00:00   08:49:43  huckleberry
