@@ -9,8 +9,6 @@
 583119 (QOSMaxJobsPerUserLimit) cascades
 583202 (QOSMaxJobsPerUserLimit) cascades
 583203 (QOSMaxJobsPerUserLimit) cascades
-583242 (QOSMaxJobsPerUserLimit) cascades
-583243 (QOSMaxJobsPerUserLimit) cascades
 583244 (QOSMaxJobsPerUserLimit) cascades
 583245 (QOSMaxJobsPerUserLimit) cascades
 583246 (QOSMaxJobsPerUserLimit) cascades
