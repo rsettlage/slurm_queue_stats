@@ -2,7 +2,7 @@
 <img src='https://raw.githubusercontent.com/rsettlage/slurm_queue_stats/master/all_data_combined_month.jpg' alt='month' width='450'/>
 <img src='https://raw.githubusercontent.com/rsettlage/slurm_queue_stats/master/all_data_combined_year.jpg' alt='year' width='450'/>
 <table class="table table-striped" style="width: auto !important; ">
-<caption>Cascades core and node availability at 24 February, 2021 -- 09:30:36PM</caption>
+<caption>Cascades core and node availability at 24 February, 2021 -- 09:40:37PM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
@@ -58,9 +58,9 @@
   </tr>
   <tr>
    <td style="text-align:left;"> cores available </td>
-   <td style="text-align:left;"> 686 </td>
-   <td style="text-align:left;"> 683 </td>
-   <td style="text-align:left;"> 686 </td>
+   <td style="text-align:left;"> 688 </td>
+   <td style="text-align:left;"> 685 </td>
+   <td style="text-align:left;"> 688 </td>
    <td style="text-align:left;"> 47 </td>
    <td style="text-align:left;"> 32 </td>
    <td style="text-align:left;"> 330 </td>
@@ -109,7 +109,7 @@
 </tbody>
 </table>
 <table class="table table-striped" style="width: auto !important; float: left; margin-right: 10px;">
-<caption>Dragonstooth core and node availability at 24 February, 2021 -- 09:30:36PM</caption>
+<caption>Dragonstooth core and node availability at 24 February, 2021 -- 09:40:37PM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
@@ -164,7 +164,7 @@
 </tbody>
 </table>
 <table class="table table-striped" style="width: auto !important; float: right; margin-left: 10px;">
-<caption>Huckleberry core and node availability at 24 February, 2021 -- 09:30:36PM</caption>
+<caption>Huckleberry core and node availability at 24 February, 2021 -- 09:40:37PM</caption>
  <thead>
   <tr>
    <th style="text-align:left;">   </th>
