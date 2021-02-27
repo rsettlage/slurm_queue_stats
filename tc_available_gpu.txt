@@ -12,8 +12,8 @@ tc011 CPUAlloc= 128 CPUTot= 128
 tc012 CPUAlloc= 128 CPUTot= 128 
 tc013 CPUAlloc= 128 CPUTot= 128 
 tc014 CPUAlloc= 128 CPUTot= 128 
-tc015 CPUAlloc= 123 CPUTot= 128 
-tc016 CPUAlloc= 128 CPUTot= 128 
+tc015 CPUAlloc= 122 CPUTot= 128 
+tc016 CPUAlloc= 0 CPUTot= 128 
 tc017 CPUAlloc= 59 CPUTot= 128 
 tc018 CPUAlloc= 128 CPUTot= 128 
 tc019 CPUAlloc= 128 CPUTot= 128 
@@ -54,9 +54,9 @@ tc053 CPUAlloc= 0 CPUTot= 128
 tc054 CPUAlloc= 0 CPUTot= 128 
 tc055 CPUAlloc= 128 CPUTot= 128 
 tc056 CPUAlloc= 128 CPUTot= 128 
-tc057 CPUAlloc= 0 CPUTot= 128 
-tc058 CPUAlloc= 0 CPUTot= 128 
-tc059 CPUAlloc= 0 CPUTot= 128 
+tc057 CPUAlloc= 128 CPUTot= 128 
+tc058 CPUAlloc= 128 CPUTot= 128 
+tc059 CPUAlloc= 128 CPUTot= 128 
 tc060 CPUAlloc= 0 CPUTot= 128 
 tc061 CPUAlloc= 0 CPUTot= 128 
 tc062 CPUAlloc= 0 CPUTot= 128 
@@ -299,7 +299,7 @@ tc302 CPUAlloc= 128 CPUTot= 128
 tc303 CPUAlloc= 128 CPUTot= 128 
 tc304 CPUAlloc= 128 CPUTot= 128 
 tc305 CPUAlloc= 128 CPUTot= 128 
-tc306 CPUAlloc= 0 CPUTot= 128 
+tc306 CPUAlloc= 128 CPUTot= 128 
 tc307 CPUAlloc= 0 CPUTot= 128 
 tc308 CPUAlloc= 0 CPUTot= 128 
 tc-hm001 CPUAlloc= 0 CPUTot= 128 
