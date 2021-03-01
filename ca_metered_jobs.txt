@@ -11,3 +11,12 @@
 586913 (QOSMaxCpuPerUserLimit) cascades
 586915 (QOSMaxCpuPerUserLimit) cascades
 586918 (QOSMaxCpuPerUserLimit) cascades
+586919 (QOSMaxCpuPerUserLimit) cascades
+586920 (QOSMaxCpuPerUserLimit) cascades
+586921 (QOSMaxCpuPerUserLimit) cascades
+586922 (QOSMaxCpuPerUserLimit) cascades
+586923 (QOSMaxCpuPerUserLimit) cascades
+586924 (QOSMaxCpuPerUserLimit) cascades
+586925 (QOSMaxCpuPerUserLimit) cascades
+586927 (QOSMaxCpuPerUserLimit) cascades
+586928 (QOSMaxCpuPerUserLimit) cascades
