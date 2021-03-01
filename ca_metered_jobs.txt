@@ -1,5 +1,4 @@
 297914 (QOSMaxCpuMinutesPerJobLimit) cascades
-586903 (QOSMaxCpuPerUserLimit) cascades
 586905 (QOSMaxCpuPerUserLimit) cascades
 586906 (QOSMaxCpuPerUserLimit) cascades
 586907 (QOSMaxCpuPerUserLimit) cascades
@@ -25,3 +24,11 @@
 586932 (QOSMaxCpuPerUserLimit) cascades
 586933 (QOSMaxCpuPerUserLimit) cascades
 586934 (QOSMaxCpuPerUserLimit) cascades
+586935 (QOSMaxCpuPerUserLimit) cascades
+586936 (QOSMaxCpuPerUserLimit) cascades
+586937 (QOSMaxCpuPerUserLimit) cascades
+586940 (QOSMaxCpuPerUserLimit) cascades
+586942 (QOSMaxCpuPerUserLimit) cascades
+586944 (QOSMaxCpuPerUserLimit) cascades
+586946 (QOSMaxCpuPerUserLimit) cascades
+586947 (QOSMaxCpuPerUserLimit) cascades
