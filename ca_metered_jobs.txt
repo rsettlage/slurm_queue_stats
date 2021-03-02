@@ -76,3 +76,14 @@
 588431 (QOSMaxCpuPerUserLimit) cascades
 588432 (QOSMaxCpuPerUserLimit) cascades
 588433 (QOSMaxCpuPerUserLimit) cascades
+588434 (QOSMaxCpuPerUserLimit) cascades
+588435 (QOSMaxCpuPerUserLimit) cascades
+588436 (QOSMaxCpuPerUserLimit) cascades
+588437 (QOSMaxCpuPerUserLimit) cascades
+588438 (QOSMaxCpuPerUserLimit) cascades
+588439 (QOSMaxCpuPerUserLimit) cascades
+588440 (QOSMaxCpuPerUserLimit) cascades
+588441 (QOSMaxCpuPerUserLimit) cascades
+588442 (QOSMaxCpuPerUserLimit) cascades
+588443 (QOSMaxCpuPerUserLimit) cascades
+588444 (QOSMaxCpuPerUserLimit) cascades
