@@ -1,6 +1,6 @@
 dt003 CPUAlloc= 24 CPUTot= 24 
 dt004 CPUAlloc= 24 CPUTot= 24 
-dt005 CPUAlloc= 4 CPUTot= 24 
+dt005 CPUAlloc= 12 CPUTot= 24 
 dt006 CPUAlloc= 20 CPUTot= 24 
 dt007 CPUAlloc= 24 CPUTot= 24 
 dt008 CPUAlloc= 16 CPUTot= 24 
