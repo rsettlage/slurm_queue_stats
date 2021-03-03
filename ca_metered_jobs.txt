@@ -4,8 +4,6 @@
 593568 (QOSMaxCpuPerUserLimit) cascades
 593569 (QOSMaxCpuPerUserLimit) cascades
 593570 (QOSMaxCpuPerUserLimit) cascades
-595151 (QOSMaxNodePerUserLimit) cascades
-595153 (QOSMaxNodePerUserLimit) cascades
 595156 (QOSMaxNodePerUserLimit) cascades
 595159 (QOSMaxNodePerUserLimit) cascades
 595158 (QOSMaxNodePerUserLimit) cascades
