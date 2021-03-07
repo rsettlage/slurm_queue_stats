@@ -9,6 +9,7 @@
 599287 (QOSMaxCpuPerUserLimit) cascades
 599037 (QOSMaxNodePerUserLimit) cascades
 599038 (QOSMaxNodePerUserLimit) cascades
+599152 (QOSMaxJobsPerUserLimit) cascades
 599172 (QOSMaxNodePerUserLimit) cascades
 599306 (QOSMaxJobsPerUserLimit) cascades
 599307 (QOSMaxJobsPerUserLimit) cascades
