@@ -43,5 +43,3 @@
 609437 (QOSMaxCpuPerUserLimit) cascades
 611389 (QOSMaxCpuPerUserLimit) cascades
 611390 (QOSMaxCpuPerUserLimit) cascades
-611394 (QOSMaxNodePerUserLimit) cascades
-611395 (QOSMaxNodePerUserLimit) cascades

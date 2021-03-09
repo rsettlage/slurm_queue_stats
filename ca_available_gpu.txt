@@ -145,9 +145,9 @@ ca146 CPUAlloc= 0 CPUTot= 32
 ca147 CPUAlloc= 32 CPUTot= 32 
 ca148 CPUAlloc= 32 CPUTot= 32 
 ca149 CPUAlloc= 32 CPUTot= 32 
-ca150 CPUAlloc= 8 CPUTot= 32 
-ca151 CPUAlloc= 8 CPUTot= 32 
-ca152 CPUAlloc= 8 CPUTot= 32 
+ca150 CPUAlloc= 5 CPUTot= 32 
+ca151 CPUAlloc= 5 CPUTot= 32 
+ca152 CPUAlloc= 5 CPUTot= 32 
 ca153 CPUAlloc= 32 CPUTot= 32 
 ca154 CPUAlloc= 0 CPUTot= 32 
 ca155 CPUAlloc= 32 CPUTot= 32 
