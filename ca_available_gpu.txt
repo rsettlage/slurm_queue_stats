@@ -64,7 +64,7 @@ ca064 CPUAlloc= 32 CPUTot= 32
 ca065 CPUAlloc= 32 CPUTot= 32 
 ca066 CPUAlloc= 32 CPUTot= 32 
 ca067 CPUAlloc= 32 CPUTot= 32 
-ca068 CPUAlloc= 32 CPUTot= 32 
+ca068 CPUAlloc= 31 CPUTot= 32 
 ca069 CPUAlloc= 27 CPUTot= 32 
 ca070 CPUAlloc= 16 CPUTot= 32 
 ca071 CPUAlloc= 32 CPUTot= 32 
@@ -82,7 +82,7 @@ ca082 CPUAlloc= 0 CPUTot= 32
 ca083 CPUAlloc= 0 CPUTot= 32 
 ca084 CPUAlloc= 0 CPUTot= 32 
 ca085 CPUAlloc= 32 CPUTot= 32 
-ca086 CPUAlloc= 3 CPUTot= 32 
+ca086 CPUAlloc= 8 CPUTot= 32 
 ca087 CPUAlloc= 32 CPUTot= 32 
 ca088 CPUAlloc= 32 CPUTot= 32 
 ca089 CPUAlloc= 32 CPUTot= 32 
@@ -113,8 +113,8 @@ ca113 CPUAlloc= 32 CPUTot= 32
 ca114 CPUAlloc= 32 CPUTot= 32 
 ca115 CPUAlloc= 32 CPUTot= 32 
 ca116 CPUAlloc= 32 CPUTot= 32 
-ca117 CPUAlloc= 32 CPUTot= 32 
-ca118 CPUAlloc= 32 CPUTot= 32 
+ca117 CPUAlloc= 16 CPUTot= 32 
+ca118 CPUAlloc= 16 CPUTot= 32 
 ca119 CPUAlloc= 16 CPUTot= 32 
 ca120 CPUAlloc= 32 CPUTot= 32 
 ca121 CPUAlloc= 32 CPUTot= 32 
