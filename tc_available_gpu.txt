@@ -101,7 +101,7 @@ tc101 CPUAlloc= 128 CPUTot= 128
 tc102 CPUAlloc= 128 CPUTot= 128 
 tc103 CPUAlloc= 128 CPUTot= 128 
 tc104 CPUAlloc= 128 CPUTot= 128 
-tc105 CPUAlloc= 100 CPUTot= 128 
+tc105 CPUAlloc= 99 CPUTot= 128 
 tc106 CPUAlloc= 128 CPUTot= 128 
 tc107 CPUAlloc= 2 CPUTot= 128 
 tc108 CPUAlloc= 96 CPUTot= 128 
