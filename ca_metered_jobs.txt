@@ -7,3 +7,5 @@
 612726 (QOSMaxCpuPerUserLimit) cascades
 612737 (QOSMaxCpuPerUserLimit) cascades
 614296 (QOSMaxCpuPerUserLimit) cascades
+614535 (QOSMaxNodePerUserLimit) cascades
+614556 (QOSMaxCpuPerUserLimit) cascades
