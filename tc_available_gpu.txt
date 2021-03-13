@@ -86,7 +86,7 @@ tc087 CPUAlloc= 128 CPUTot= 128
 tc088 CPUAlloc= 128 CPUTot= 128 
 tc089 CPUAlloc= 128 CPUTot= 128 
 tc090 CPUAlloc= 128 CPUTot= 128 
-tc091 CPUAlloc= 128 CPUTot= 128 
+tc091 CPUAlloc= 112 CPUTot= 128 
 tc092 CPUAlloc= 128 CPUTot= 128 
 tc093 CPUAlloc= 1 CPUTot= 128 
 tc094 CPUAlloc= 1 CPUTot= 128 
